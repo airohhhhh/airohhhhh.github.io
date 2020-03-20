@@ -2,9 +2,10 @@
 ![althere](https://github.com/airohhhhh/airohhhhh.github.io/raw/master/images/s_wanda_header.png "hi")
 
 
+<p align="center">
 ### Written by: airoh.
 ### Last Updated: March 18th 2020
-
+</p>
 - - - - - -
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
