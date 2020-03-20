@@ -3,8 +3,9 @@
 
 
 <p align="center">
-    <b> Written by: airoh. </b>
-    <b> Last Updated: March 18th 2020</b>
+    <b> Written by: airoh. </b><br><br>
+    <b> Last Updated: March 18th 2020</b><br><br>
+    - Added most of the NA Servers' translations
 </p>
 - - - - - -
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
