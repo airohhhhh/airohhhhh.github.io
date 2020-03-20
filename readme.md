@@ -3,8 +3,8 @@
 
 
 <p align="center">
-    <b> Written by: airoh. </b><br><br>
-    <b> Last Updated: March 18th 2020</b><br><br>
+    **Written by: airoh.**<br><br>
+    <b> Last Updated: March 18th 2020</b><br>
     - Added most of the NA Servers' translations
 </p>
 - - - - - -
