@@ -1,6 +1,6 @@
 ### Written by: airoh.
-### Last Updated: March 18th 2
-- - 
+### Last Updated: March 18th 2020
+- - - - - -
 
 You can use the [editor on GitHub](https://github.com/airohhhhh/airohhhhh.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
