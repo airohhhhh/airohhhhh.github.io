@@ -3,8 +3,8 @@
 
 
 <p align="center">
-### Written by: airoh.
-### Last Updated: March 18th 2020
+    <h3> Written by: airoh. </h3>
+    <h3> Last Updated: March 18th 2020</h3>
 </p>
 - - - - - -
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
