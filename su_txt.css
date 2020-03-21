@@ -17,29 +17,21 @@
   padding: 6px 8px 6px 25px;
   text-decoration: none;
   font-size: 18px;
-  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600px;
   color: #5F719D;
   display: block;
+  z-index: 6;
 }
 
 /* When you mouse over the navigation links, change their color */
 .sidenav a:hover {
   color: #174EA6;
+  background-color: white;
   
 }
 
-/* Style page content */
-.main {
-  font-family: 'Noto Sans', sans-serif;
-  padding-left: 0px;
-  padding-right: 20px;
-  padding-bottom: 160px;
-  padding-top: 20px;
-  margin: auto;
-  width: 50%;
-  
-  
-}
+
 
 /* On smaller screens, where height is less than 450px, change the style of the sidebar (less padding and a smaller font size) */
 @media screen and (max-height: 450px) {
@@ -53,20 +45,13 @@
   font-weight: bold;
   border-top: 1px;
   border-bottom: 1px;
-  border-right: 0px;
+  border-right: 1px;
   border-left: 0px;
   border-color: gray;
   border-style: dashed;
-}
-.main2 {
-  width: 950px;
-  -webkit-box-shadow: 0px 0px 12px 0px rgba(138,138,138,1);
-  -moz-box-shadow: 0px 0px 12px 0px rgba(138,138,138,1);
-  box-shadow: 0px 0px 12px 0px rgba(138,138,138,1);
-  padding: 40px;
   background-color: white;
-  padding-bottom: 100px;
 }
+
 #center {
   text-align: center;
 }
@@ -85,7 +70,7 @@
   border-radius: 10px;
 }
 body {
-  background-color: #F8F9FA;
+  background-color: rgb(240, 240, 240);
 }
 
 #textindent {
@@ -96,7 +81,8 @@ body {
 /* frequent highlighting */
 #highlight {
   color: #741b47;
-  font-weight: bold;
+  font-family: 'Open Sans',sans-serif;
+  font-weight:600;
 }
 
 /* cons highlight*/
@@ -134,13 +120,40 @@ hr {
 .footnote {
   font-size: 15px;
   line-height: 5px;
+  font-family: 'Open Sans',sans-serif;
+  font-weight:600;
 }
 
 sup {
   font-weight: bold;
 }
 
-
 .bottomshadow {
   box-shadow: 0 4px 2px -2px gray;
+}
+
+
+
+
+/* Style page content */
+.main {
+  font-family: 'Noto Sans', sans-serif;
+  padding-left: 0px;
+  padding-right: 20px;
+  padding-bottom: 160px;
+  padding-top: 0px;
+  margin: auto;
+  width: 50%;
+  z-index: 5;
+}
+.main2 {
+  width: 950px;
+  -webkit-box-shadow: 0px 0px 12px -3px rgba(138,138,138,1);
+  -moz-box-shadow: 0px 0px 12px -3px rgba(138,138,138,1);
+  box-shadow: 0px 0px 12px -3px rgba(138,138,138,1);
+  padding: 40px;
+  position: relative;
+  background-color: white;
+  padding-bottom: 100px;
+  z-index: 7;
 }
