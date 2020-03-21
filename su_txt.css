@@ -1,7 +1,8 @@
+ 
  /* The sidebar menu */
  .sidenav {
-  height: 100%; /* Full-height: remove this if you want "auto" height */
-  width: 255px; /* Set the width of the sidebar */
+  height: 50%; /* Full-height: remove this if you want "auto" height */
+  width: 315px; /* Set the width of the sidebar */
   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
   z-index: 1; /* Stay on top */
   top: 0; /* Stay at the top */
@@ -107,6 +108,8 @@ body {
   color: #1155cc;
   font-weight: bold;
 }
+
+/* pros/required highlight */
 #lightgreen {
   color: #6aa84f;
   font-weight: bold;
@@ -122,4 +125,22 @@ body {
 #caramel {
   color: #741b47;
   font-weight: bold;
+}
+
+hr {
+  float: left;
+}
+
+.footnote {
+  font-size: 15px;
+  line-height: 5px;
+}
+
+sup {
+  font-weight: bold;
+}
+
+
+.bottomshadow {
+  box-shadow: 0 4px 2px -2px gray;
 }
