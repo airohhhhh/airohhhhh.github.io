@@ -1,6 +1,7 @@
 /* general stuff */
 body {
 	font-family: 'Open Sans', sans-serif;
+	background-color: #efefef;
 }
 
 .container {
@@ -64,7 +65,11 @@ body {
 
 .rounded {
 	border-radius: 30px;
+	border-color: black;
+	border-width: 1px;
+	border-style: solid;	
 }
+
 
 
 /* making images do what I want them to */
