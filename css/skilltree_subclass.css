@@ -1,0 +1,60 @@
+/*  classes used to bold/colour/etc text on the skill tree and subclass pages.*/
+
+.bggrey {
+	background-color: #d9d9d9;
+	padding: 15px;
+	margin: 15px;
+}
+
+.italic {
+	font-style: italic;
+}
+
+
+/* req skills */
+.highlightrequired {
+	color: #6aa84f;
+}
+
+.highlightgreen {
+	color: #38761d;
+}
+
+
+/* reco skills */
+.highlightrecommended{
+	color: #6d9eeb;
+}
+
+.highlightblue{
+	color: #3c78d8;
+}
+
+
+/* optional skills */
+.highlightoptional{
+	color: #7f6000;
+}
+
+
+/* not reco skills */
+.highlightnotrecommended{
+	color: #cc0000;
+}
+
+
+/* subclass highlights */
+.highlightfighter{
+	color: #990000;
+}
+
+
+.highlightphantom{
+	color: #1155cc;
+}
+
+
+
+
+
+
