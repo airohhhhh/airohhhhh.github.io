@@ -10,6 +10,9 @@ body, p {
 	color: black;
 	padding: 0px;
 }
+html {
+	scroll-behavior: smooth;
+}
 
 
 /* nav bar */
@@ -30,6 +33,12 @@ body, p {
 
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
 	transition: transform 1.8s ease;
+}
+
+.back-to-top {
+	margin-top: 12px;
+	margin-right: 10px;
+	padding-bottom: -1px;
 }
 
 /* classes used to bold/colour/etc text */ 
