@@ -62,6 +62,12 @@ html {
 	font-weight: 600;
 }
 
+/* highlight links black */
+
+.black, .black:hover {
+	color: black;
+	text-decoration: none;
+}
 
 .highlightna {
 	color: #9900ff;
@@ -132,7 +138,7 @@ html {
 
 .imgfloatleft {
 	margin: 4px;
-	margin-right: 7px;
+	margin-bottom: 7px;
 	float: left;
 }
 
@@ -159,3 +165,4 @@ html {
 .discord{
 	margin-right: 15px;
 }
+
