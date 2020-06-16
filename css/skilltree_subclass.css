@@ -56,24 +56,12 @@
 
 }
 
-.bgrecommended {
-	background-color: #6d9eeb;
+
+.bgdark {
+	background-color: #343A40;
 	padding: 3px;
 
 }
-
-.bgoptional {
-	background-color: #a8a14f;
-	padding: 3px;
-
-}
-
-.bgnotrecommended {
-	background-color: #bd4544;
-	padding: 3px;
-
-}
-
 
 
 
