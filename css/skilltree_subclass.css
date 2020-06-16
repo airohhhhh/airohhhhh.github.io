@@ -11,10 +11,6 @@
 	color: #6aa84f;
 }
 
-.bgrequired {
-	background-color: #6aa84f;
-
-}
 
 .highlightgreen {
 	color: #38761d;
@@ -48,10 +44,37 @@
 	color: #990000;
 }
 
-
 .highlightphantom{
 	color: #1155cc;
 }
+
+/* bg variants */
+
+.bgrequired {
+	background-color: #6aa84f;
+	padding: 3px;
+
+}
+
+.bgrecommended {
+	background-color: #6d9eeb;
+	padding: 3px;
+
+}
+
+.bgoptional {
+	background-color: #7f6000;
+	padding: 3px;
+
+}
+
+.bgnotrecommended {
+	background-color: #cc0000;
+	padding: 3px;
+
+}
+
+
 
 /* img stuf */
 
