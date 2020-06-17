@@ -33,11 +33,6 @@
 }
 
 
-/* not reco skills */
-.highlightnotrecommended{
-	color: #cc0000;
-}
-
 
 /* subclass highlights */
 .highlightfighter{
@@ -48,22 +43,12 @@
 	color: #1155cc;
 }
 
-/* bg variants */
-
-.bgrequired {
-	background-color: #6aa84f;
-	padding: 3px;
-
-}
 
 
-.bgdark {
-	background-color: #343A40;
-	padding: 3px;
+/* card */
+
+.hi { 
+	padding: 0rem;
 
 }
-
-
-
-
 
