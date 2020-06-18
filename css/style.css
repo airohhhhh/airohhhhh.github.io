@@ -1,7 +1,6 @@
 /* general stuff */
 body, p {
 	font-family: 'Open Sans', sans-serif;
-	background-color: white;
 }
 
 
@@ -35,11 +34,6 @@ html {
 	transition: transform 1.8s ease;
 }
 
-.back-to-top {
-	margin-top: 12px;
-	margin-right: 10px;
-	padding-bottom: -1px;
-}
 
 /* classes used to bold/colour/etc text */ 
 .boldtitle { 
