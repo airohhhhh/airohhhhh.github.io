@@ -23,7 +23,6 @@
 #fixedbgimg {
 	background-image:url(../images/skill\ tree/bg-fixed-gate-1.png);
 	background-size:cover;
-	background-attachment:fixed;
 	min-height: 600px;
 	background-position: center;
 }
