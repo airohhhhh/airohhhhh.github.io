@@ -27,3 +27,10 @@
 	min-height: 600px;
 	background-position: center;
 }
+
+#fixedbgimgmobile {
+	background-image:url(../images/skill\ tree/bg-fixed-gate-1.png);
+	background-size:cover;
+	min-height: 350px;
+	background-position: center;
+}
