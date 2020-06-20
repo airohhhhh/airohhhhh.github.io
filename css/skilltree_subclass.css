@@ -15,3 +15,17 @@
 	background-position: center;
 }
 
+#fixedbgimgtwo {
+	background-image:url(../images/skill\ tree/bg-fixed-gate-2.png);
+	background-size:cover;
+	background-attachment:fixed;
+	min-height: 600px;
+	background-position: center;
+}
+
+#fixedbgimgmobiletwo{
+	background-image:url(../images/skill\ tree/bg-fixed-gate-2.png);
+	background-size:cover;
+	min-height: 350px;
+	background-position: center;
+}
