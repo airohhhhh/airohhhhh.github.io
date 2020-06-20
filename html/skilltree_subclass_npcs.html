@@ -121,19 +121,19 @@
                             <ul class="nav nav-tabs card-header-tabs justify-content-center" id="listjs" role="tablist">
 
                                 <li class="nav-item py-0 pr-0">
-                                    <a class="nav-link active text-success border" href="#core" role="tab" aria-controls="core" aria-selected="false">Core</a>
+                                    <a class="nav-link active text-success" href="#core" role="tab" aria-controls="core" aria-selected="true">Core</a>
                                 </li>
                                 <li class="nav-item py-0 pl-0 pr-0">
-                                    <a class="nav-link text-primary border"  href="#recommended" role="tab"  aria-controls="recommended" aria-selected="false">Recommended</a>
+                                    <a class="nav-link text-primary"  href="#recommended" role="tab"  aria-controls="recommended" aria-selected="false">Recommended</a>
                                 </li>
                                 <li class="nav-item py-0 pl-0 pr-0">
-                                    <a class="nav-link text-warning border" href="#optional" role="tab" aria-controls="optional" aria-selected="false">Optional</a>
+                                    <a class="nav-link text-warning" href="#optional" role="tab" aria-controls="optional" aria-selected="false">Optional</a>
                                 </li>
                                 <li class="nav-item py-0 pl-0 pr-0">
-                                    <a class="nav-link text-danger border" href="#notrecommended" role="tab" aria-controls="notrecommended" aria-selected="false">Not Recommended</a>
+                                    <a class="nav-link text-danger" href="#notrecommended" role="tab" aria-controls="notrecommended" aria-selected="false">Not Recommended</a>
                                 </li>
                                 <li class="nav-item py-0 pl-0">
-                                    <a class="nav-link text-info border" href="#naspecific" role="tab" aria-controls="naspecific" aria-selected="false">NA Specific</a>
+                                    <a class="nav-link text-info" href="#naspecific" role="tab" aria-controls="naspecific" aria-selected="false">NA Specific</a>
                                 </li>
 
                             </ul>
@@ -558,15 +558,16 @@
                             <div class="card-header">
                                 <ul class="nav nav-tabs card-header-tabs justify-content-center" id="listjs" role="tablist">
                                     <li class="nav-item py-0 pr-0">
-                                        <a class="nav-link active text-primary border" href="#phantom" role="tab" aria-controls="phantom" aria-selected="true">
+                                        <a class="nav-link active text-primary" href="#phantom" role="tab" aria-controls="phantom" aria-selected="true">
                                             <img src="../images/skill tree/phantom_icon.png" class="border border-dark w-smaller" alt="Phantom Icon"> Phantom</a>
                                     </li>
                                     <li class="nav-item py-0 pr-0 pl-0">
-                                        <a class="nav-link text-danger border"  href="#fighter" role="tab" aria-controls="fighter" aria-selected="false">
+                                        <a class="nav-link text-danger"  href="#fighter" role="tab" aria-controls="fighter" aria-selected="false">
                                             <img src="../images/skill tree/fighter_icon.png" class="border border-dark w-smaller" alt="Fighter Icon"> Fighter</a>
                                     </li>
                                     <li class="nav-item py-0 pl-0">
-                                        <a class="nav-link text-dark border-top border-left border-right" href="#othersubclasses" role="tab" aria-controls="othersubclasses" aria-selected="false">Other Subclasses</a>
+                                        <a class="nav-link text-dark" href="#othersubclasses" 
+                                        role="tab" aria-controls="othersubclasses" aria-selected="false">Other Subclasses</a>
                                     </li>
                                 </ul>
 
@@ -574,8 +575,8 @@
                             <!-- text -->
                             <div class="card-body">
                                     <div class="tab-content mt-3">
-                                        <!-- req -->
-                                    <div class="tab-pane active" id="phantom" role="tabpanel">
+                                        <!-- phantom -->
+                                    <div class="tab-pane active" id="phantom" role="tabpanel" aria-labelledby="phantom-tab">
                                     <p class="card-text">
                                         Far and away the best subclass for Summoner. Poor PP recovery and high damage variance (30% versus most classes' 10%) 
                                         are some of Summoner's most major issues, and Phantom addresses both these things while also offering great multipliers for pet damage.<br><br>
@@ -619,8 +620,8 @@
                                         <span class="text-primary semibold">Gain a damage bonus equal to 5% of your max PP, up to 10% damage.
                                         </span>
                                         To get the full benefit of this skill you need to have 200 PP or higher.
-                                        <div class="border-top my-3"></div><br>
-                                        
+                                        <div class="border-top my-3"></div>
+
                                     </div>
                                 
                                         <!-- fighter -->
@@ -630,7 +631,7 @@
                                     </div>
 
                                         <!-- other subclasses -->
-                                    <div class="tab-pane" id="othersubclasses" aria-labelledby="phantom-tab" aria-labelledby="othersubclasses-tab">
+                                    <div class="tab-pane" id="othersubclasses" role="tabpanel" aria-labelledby="othersubclasses-tab">
                                     <p class="card-text">
                                         hiu
                                     </div>
