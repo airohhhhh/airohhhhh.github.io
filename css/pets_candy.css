@@ -1,7 +1,20 @@
+/* scroll bar stuff */
 
-#please-scroll{
-    height: calc(100% - 110px);
+.yeah {
+    height: 70vh;
     overflow-y: scroll;
-  }
+}
 
-  
+.yeah::-webkit-scrollbar-thumb {
+    background-color: #b04a7c;
+    background-image: #b04a7c;
+}
+
+.yeah::-webkit-scrollbar {
+    width: 6px;
+    
+}
+
+.yeah::-webkit-scrollbar-track {
+    background: #eee;
+}
