@@ -110,6 +110,118 @@
 
         <div class="space" style="height: 6vh;"></div>
 
+        <div class="container">
+
+            <div class="card">
+
+                <!-- header -->
+                <div class="card-header">
+                    <ul class="nav nav-tabs card-header-tabs justify-content-center" id="listjs" role="tablist">
+                        <li class="nav-item py-0 pr-0">
+                            <a class="nav-link active text-success" href="#rarity" role="tab" aria-controls="rarity" aria-selected="true">★ Rarity</a>
+                                
+                        </li>
+                        <li class="nav-item py-0 pr-0 pl-0">
+                            <a class="nav-link text-danger"  href="#fighter" role="tab" aria-controls="fighter" aria-selected="false">Fighter</a>
+                        </li>
+                        <li class="nav-item py-0 pl-0">
+                            <a class="nav-link text-dark" href="#othersubclasses" role="tab" aria-controls="othersubclasses" aria-selected="false"> Other Subclasses</a>
+                        </li>
+                    </ul>
+
+                </div>
+
+                <!-- body -->
+                <div class="card-body">
+                    <div class="tab-content mt-3">
+
+                            <!-- Rarity -->
+                        <div class="tab-pane active" id="rarity" role="tabpanel" aria-labelledby="rarity-tab">
+                            <div class="row">
+
+                                <!-- Collumn 1, Table -->
+                                <div class="col-lg-6">
+                                    <p class="card-text center"><span class="text-success">Rarity</span> determines your pet's level cap.</p>
+
+                                        <table class="table w-75 mx-auto">
+                                            <thead>
+                                            <tr>
+                                                <th scope="col" class="table-dark border-0">Rarity</th>
+                                                <th scope="col" class="table-dark border-0">Level Cap</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td class="semibold" scope="row">6★</td>
+                                                <td>60</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="semibold" scope="row">7★</td>
+                                                <td>65</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="semibold" scope="row">8★</td>
+                                                <td>70</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="semibold" scope="row">9★</td>
+                                                <td>75</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="semibold" scope="row">10★</td>
+                                                <td>85</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="semibold" scope="row">11★</td>
+                                                <td>90</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="semibold" scope="row">12★</td>
+                                                <td>110</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="semibold" scope="row">13★</td>
+                                                <td>120</td>
+                                            </tr>
+                                            <tr>
+                                                <td class="semibold table-info" scope="row">14★</td>
+                                                <td class="table-info">130</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+
+                                     <span class="text-info semibold center pb-4">14★ Pets are not currently available on NA.</span>
+                                    
+                                </div>
+
+                                <!-- Collumn 2, Supporting Text -->
+                                <div class="col-lg-5">
+                                   
+
+                                   
+                                </div>
+
+                            </div>
+                        </div>
+
+                            <!-- fighter -->
+                        <div class="tab-pane" id="fighter" role="tabpanel" aria-labelledby="fighter-tab">
+                            <p class="card-text">
+                                hi
+                        </div>
+
+                            <!-- other subclasses -->
+                        <div class="tab-pane" id="othersubclasses" role="tabpanel" aria-labelledby="othersubclasses-tab">
+                            <p class="card-text">
+                                hiu
+                        </div>
+
+                    </div>
+                </div>
+                
+            </div> <!-- close card -->
+        </div> <!-- close container -->
+
         <!-- Rarity, Attribute & Personality -->
         <div class="container mt-5">
             <div class="row">
@@ -117,7 +229,7 @@
                 <div class="col col-sm-9 col-md-9 col-lg-5 col-10  mx-auto mb-3">
                 <div class="card border-dark p-0" >
                     <div class="p-0 center">
-                        <div class="card-header border-dark">★ Rarity</div>
+                        <div class="card-header">★ Rarity</div>
                         <div class="card-body">
                         <p class="card-text"><span class="highlight">Rarity</span> determines your pet's level cap.</p>
                         <table class="table w-75 mx-auto">
@@ -176,11 +288,29 @@
                 <div class="col col-sm-9 col-md-9 col-lg-7 col-10 mx-auto mb-3">
                     <div class="card border-dark p-0" >
                         <div class="p-0">
-                            <div class="card-header border-dark center">Attribute & Personality</div>
+                            <div class="card-header center">Attribute, Personality, & Pet Plus Stats</div>
                             <div class="card-body">
-                            <p class="card-text">Your pet's <span class="highlight">Attribute</span> determines which enemies our pet will be strong against.
-                            Aim for light attribute since most enemies are weak to light! </p>
+                            <p class="card-title highlight">Attribute</p>
+                            <p class="card-text">Your pet's attribute determines which enemies your pet will be strong against.
+                            Aim for light attribute since most enemies are weak to light.</p>
+
                             <div class="border-top border-dark my-3"></div>
+
+                            <p class="card-title highlight">Personality </p>
+                            <p class="card-text">Your pet's personality grants your pet bonuses such as increased damage or reduced PP costs.
+                            Each pet type has two different personalities to choose from, which are detailed in the <a href="#" class="highlight">Pets</a> section.</p>
+
+                            <p>These personalities also come in "Super" variants which provide the same effect, but with an added +5% RDR. I never bothered with these,
+                               but if 5% RDR matters to you, go for it.
+                            </p>
+
+                            <p>14★ Pets have a personality that provides the effects of both of the pet's personalities together, with an added +5% RDR.</p>
+
+                            <div class="border-top border-dark my-3"></div>
+
+                            <p class="card-title highlight">Pet Plus Stats </p>
+                            <p class="card-text">Increases your pet's Attack, HP, and Dex. Each pet type has unique cap for these stats is detailed <a href="#" class="highlight">here.</a></p>
+                                
                             
                             </div>
                         </div>
