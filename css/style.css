@@ -134,17 +134,17 @@ html {
 }
 
 /* horizontal table scroll dark */ 
-.yeahyellow::-webkit-scrollbar-thumb {
+.yeahdark::-webkit-scrollbar-thumb {
     background-color: #343a40;
     background-image: #343a40;
 }
 
-.yeahyellow::-webkit-scrollbar {
+.yeahdark::-webkit-scrollbar {
     height: 6px;
     
 }
 
-.yeahyellow::-webkit-scrollbar-track {
+.yeahdark::-webkit-scrollbar-track {
     background: #eee;
 }
 
