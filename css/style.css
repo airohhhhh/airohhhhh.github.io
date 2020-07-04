@@ -102,3 +102,69 @@ html {
 	height: 22px;
 }
 
+/* horizontal table scroll green */ 
+
+.yeahgreen::-webkit-scrollbar-thumb {
+    background-color: #28a745;
+    background-image: #28a745;
+}
+
+.yeahgreen::-webkit-scrollbar {
+    height: 6px;
+    
+}
+
+.yeahgreen::-webkit-scrollbar-track {
+    background: #eee;
+}
+
+/* horizontal table scroll yellow */ 
+.yeahyellow::-webkit-scrollbar-thumb {
+    background-color: #ffc107;
+    background-image: #ffc107;
+}
+
+.yeahyellow::-webkit-scrollbar {
+    height: 6px;
+    
+}
+
+.yeahyellow::-webkit-scrollbar-track {
+    background: #eee;
+}
+
+/* horizontal table scroll dark */ 
+.yeahyellow::-webkit-scrollbar-thumb {
+    background-color: #343a40;
+    background-image: #343a40;
+}
+
+.yeahyellow::-webkit-scrollbar {
+    height: 6px;
+    
+}
+
+.yeahyellow::-webkit-scrollbar-track {
+    background: #eee;
+}
+
+/*vertical stock scroll  highlight */ 
+
+.yeah {
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+.yeah::-webkit-scrollbar-thumb {
+    background-color: #b04a7c;
+    background-image: #b04a7c;
+}
+
+.yeah::-webkit-scrollbar {
+    width: 6px;
+    
+}
+
+.yeah::-webkit-scrollbar-track {
+    background: #eee;
+}

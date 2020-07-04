@@ -29,18 +29,3 @@
 	min-height: 350px;
 	background-position: center;
 }
-
-
-.yeah::-webkit-scrollbar-thumb {
-    background-color: #28a745;
-    background-image: #28a745;
-}
-
-.yeah::-webkit-scrollbar {
-    width: 6px;
-    
-}
-
-.yeah::-webkit-scrollbar-track {
-    background: #eee;
-}
