@@ -30,6 +30,11 @@
 	background-position: center;
 }
 
+
+.yeah {
+    overflow-x: scroll;
+}
+
 .yeah::-webkit-scrollbar-thumb {
     background-color: #28a745;
     background-image: #28a745;
