@@ -20,11 +20,19 @@
 }
 
 /* fixed img */
+
+#fixedbgimg {
+	background-image:url(../images/pets_candy/bg-fixed-shop-1.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	min-height: 600px;
 	background-position: center;
 }
 
 #fixedbgimgmobile {
 	background-image:url(../images/pets_candy/bg-fixed-shop-1.jpg);
+	background-size:cover;
+	min-height: 350px;
 	background-position: center;
 }
 
