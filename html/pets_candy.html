@@ -36,7 +36,8 @@
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item"><a href="../index.html" class="nav-link">Intro</a></li>
                             <li class="nav-item"><a href="skilltree_subclass_npcs.html" class="nav-link">Skill Tree, Subclass, NPCs</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link active">Pets, Candy</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link active">Pet Setup, Candy</a></li>
+                            <li class="nav-item"><a href="pets.html" class="nav-link">Pets</a></li>
                             <li class="nav-item"><a href="equipment.html" class="nav-link">Equipment</a></li>
                             <li class="nav-item"><a href="credits.html" class="nav-link">Credits</a></li>
                         </ul>
@@ -80,10 +81,8 @@
                 <div class="collapse navbar-collapse" id="navbarBottom">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a href="#petsetup" class="nav-link">Pet Setup</a></li>
-                        <li class="nav-item"><a href="#candyboxes" class="nav-link">Candy Boxes</a></li>
-                        <li class="nav-item"><a href="#candytypes" class="nav-link">Candy Types</a></li>
+                        <li class="nav-item"><a href="#candyboxes" class="nav-link">Candy Boxes & Candy Types</a></li>
                         <li class="nav-item"><a href="#noteworthycandy" class="nav-link">Noteworthy Candy</a></li>
-                        <li class="nav-item"><a href="#pets" class="nav-link">Pets</a></li>
                     </ul>
                 </div>
             </div>
@@ -91,7 +90,7 @@
 
         <div class="space" style="height: 6vh;"></div>
 
-        <!-- Pet Setup Container-->
+        <!-- Pet Setup Text Container -->
 		<div class="container mt-5 mx-auto">
 			<div class="row justify-content-center">
 				<div class="col-lg-4" id="petsetup">
@@ -106,11 +105,12 @@
                     <img class="w-100 rounded" src="../images/pets_candy/pet_setup.png" alt="Wanda Egg 7 Star">
                 </div>
 			</div>
-        </div>
+        </div> <!-- close container -->
 
         <div class="space" style="height: 6vh;"></div>
 
-        <div class="container">
+        <!-- Pet Setup Container-->
+        <div class="container"> <!-- close container -->
 
             <div class="card">
 
@@ -403,6 +403,19 @@
                 
             </div> <!-- close card -->
         </div> <!-- close container -->
+
+        <!-- bg image // FIXED BACKGROUND IMAGE, hidden on xs and sm screens -->
+        <section id="fixedbgimg" class="my-5 border-top border-bottom border-dark 
+        d-none d-sm-block d-sm-none d-md-block">
+                <!-- img defined in css -->
+        </section>
+
+        <!-- bg image // NON-FIXED BACKGROUND IMAGE, displays only on xs and sm screens-->
+        <!-- I should better name the ID for this but I won't -->
+        <section id="fixedbgimgmobile" class="my-5 border--top border-bottom border-dark 
+        d-block d-sm-none d-block d-sm-none">
+                <!-- img defined in css -->
+        </section>
 
      
       

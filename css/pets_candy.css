@@ -18,3 +18,27 @@
 .yeah::-webkit-scrollbar-track {
     background: #eee;
 }
+
+/* fixed img */
+	background-position: center;
+}
+
+#fixedbgimgmobile {
+	background-image:url(../images/pets_candy/bg-fixed-shop-1.jpg);
+	background-position: center;
+}
+
+#fixedbgimgtwo {
+	background-image:url(../images/pets_candy/bg-fixed-shop-2.png);
+	background-size:cover;
+	background-attachment:fixed;
+	min-height: 600px;
+	background-position: center;
+}
+
+#fixedbgimgmobiletwo{
+	background-image:url(../images/pets_candy/bg-fixed-shop-2.png);
+	background-size:cover;
+	min-height: 350px;
+	background-position: center;
+}
