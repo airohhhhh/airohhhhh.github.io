@@ -17,7 +17,7 @@
 }
 
 #fixedbgimgtwo {
-	background-image:url(../images/pets_candy/bg-fixed-shop-2.png);
+	background-image:url(../images/pets_candy/bg-fixed-shop-2.jpg);
 	background-size:cover;
 	background-attachment:fixed;
 	min-height: 600px;
@@ -25,7 +25,7 @@
 }
 
 #fixedbgimgmobiletwo{
-	background-image:url(../images/pets_candy/bg-fixed-shop-2.png);
+	background-image:url(../images/pets_candy/bg-fixed-shop-2.jpg);
 	background-size:cover;
 	min-height: 350px;
 	background-position: center;
