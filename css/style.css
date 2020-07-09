@@ -64,6 +64,11 @@ html {
 	font-weight: 600;
 }
 
+.highlightintro {
+	color: #916ACB;
+	font-weight: 600;
+}
+
 /* highlight links black */
 
 .underline {
@@ -171,3 +176,12 @@ html {
 .yeah::-webkit-scrollbar-track {
     background: #eee;
 }
+
+/* loading bar headers global */
+
+/* introduction */
+
+.barintro {
+	background-color: #4874C0;
+}
+
