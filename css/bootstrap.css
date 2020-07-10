@@ -429,7 +429,7 @@ hr {
 
 small,
 .small {
-  font-size: 80%;
+  font-size: 88%;
   font-weight: 400;
 }
 
@@ -8906,11 +8906,11 @@ a.text-warning:hover, a.text-warning:focus {
 }
 
 .text-danger {
-  color: #C57A7F !important;
+  color: #dc3545 !important;
 }
 
 a.text-danger:hover, a.text-danger:focus {
-  color: #964f54 !important;
+  color: #bd2837 !important;
 }
 
 .text-light {

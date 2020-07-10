@@ -135,7 +135,7 @@
                             <!-- Collumn 2, Table -->
                             <div class="col">
                                 <div class="container table-responsive h-scroll-blueish">
-                                    <table class="table text-center mt-3 h-scroll-blueish mx-auto">
+                                    <table class="table text-center mt-3">
                                         <thead>
                                         <tr>
                                             <th scope="col" class="table-blueish border-0"></th>
@@ -178,10 +178,12 @@
                                         </tbody>
                                     </table>
                                 </div>
-
-                                    <span class="text-blueish pb-4">Table information sourced from 
-                                        <a class="text-dark" target="_blank" href="https://pso2.swiki.jp/index.php?ジンガ">https://pso2.swiki.jp/index.php?%ジンガ</a>
-                                    </span>
+                                <p class="center text-blueish pb-4">Table information sourced from 
+                                    <a class="text-dark" target="_blank" href="https://pso2.swiki.jp/index.php?ジンガ">https://pso2.swiki.jp/index.php?%ジンガ</a>
+                                </p>
+                                
+                                
+                                    
                                 
                             </div>
 
@@ -189,6 +191,55 @@
                     </div>
                 
             </div> <!-- close card -->
+        </div> <!-- close container -->
+
+        <!-- Personality Container-->
+        <div class="container mt-5">
+            <div class="card-deck">
+                <div class="row">
+                            <!-- Enjoys Sun / Sunny -->
+                        <div class="card border border-dark">
+                            <p class="card-header text-center">
+                                Enjoys Sun / <span class="text-info semibold">Sunny</span>
+                            </p>
+                                <div class="card-body">
+                                    <p class="card-text">Personality that increases Wanda or Jinga's damage by 12% when the weather is clear.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-info semibold">Wanda and Jinga's preferred Personality on NA</small>
+                                </div>
+                        </div>
+
+                            <!-- Fervent / Resolved -->
+                        <div class="card border border-dark">
+                            <p class="card-header text-center">
+                                Fervent / <span class="text-info semibold">Resolved</span>
+                            </p>
+                                <div class="card-body">
+                                    <p class="card-text">Wanda or Jinga gains a low chance to avoid fatal blows.<br><br>
+                                        
+                                        When a fatal blow is avoided this way, the pet becomes
+                                        invincible for a few seconds and gains 15% increased damage for 60 seconds.
+                                    </p>
+                                </div>
+                        </div>
+
+                            <!-- Powerful -->
+                        <div class="card border border-dark">
+                            <p class="card-header highlight semibold text-center">
+                                Powerful (14★)
+                                <span class="text-success"> [JP Only]</span>
+                            </p>
+                                <div class="card-body">
+                                    <p class="card-text">Wanda or Jinga gains the effects of Enjoys Sun and Fervent. Also, +5% RDR.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-success semibold">Wanda and Jinga's preferred Personality on JP</small>
+                                </div>
+                        </div>
+                    
+                </div>  
+            </div>
         </div> <!-- close container -->
         
                 <!-- bg image // FIXED BACKGROUND IMAGE, hidden on xs and sm screens -->
@@ -204,490 +255,7 @@
                         <!-- img defined in css -->
                 </section>
 
-        <!-- Subclass Text Container -->
-        <div class="container mt-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-6" id="subclass">
-                    <h3 class="boldtitlelarge my-auto">Subclass</h3>
-                    <div class="border-top-top border-top-dark my-3"></div>
-
-                        PSO2 has a wide variety of classes that you could use as a Subclass for Summoner,
-                        but the only two that really stand out are Phantom and Fighter.<br><br>
-
-                        You'll gain the ability to equip a subclass around level 20
-                        by completing Koffie/<span class="text-info semibold">Cofy</span>'s
-                        "Subclass License" client order, at which point you can speak
-                        to Bea to equip your subclass of choice.<br><br>
-
-                        Koffie is an important NPC in her own right because 
-                        she offers client orders that allow you to increase your level cap, 
-                        unlock new difficulties, and gain access to your Mag. <br><br>
-
-                        <span class="text-info semibold">Phantom isn't currently available on NA, but that'll change when NA gains access to Episode 6 content.</span>
-                        <br><br>
-                </div>
-        
-                <div class="col-sm-9 col-md-8 col-lg-4 col-10 my-auto">
-                    <img class="w-100 rounded" src="../images/skill tree/skilltree_koffie.png" alt="Koffie">
-                </div>
-            </div>
-        </div> <!-- close container -->
-
-        <!-- Subclass Container --> 
-            <div class="container mt-5">
-                <div class="row">
-                    <div class="col-12 mx-auto">
-                        <div class="card border-dark">
-                            <!-- headings -->
-                            <div class="card-header">
-                                <ul class="nav nav-tabs card-header-tabs justify-content-center" id="listjs" role="tablist">
-                                    <li class="nav-item py-0 pr-0">
-                                        <a class="nav-link active text-blueish" href="#phantom" role="tab" aria-controls="phantom" aria-selected="true">
-                                            <img src="../images/skill tree/phantom_icon.png" class="border border-dark w-smaller" alt="Phantom Icon"> Phantom</a>
-                                    </li>
-                                    <li class="nav-item py-0 pr-0 pl-0">
-                                        <a class="nav-link text-danger"  href="#fighter" role="tab" aria-controls="fighter" aria-selected="false">
-                                            <img src="../images/skill tree/fighter_icon.png" class="border border-dark w-smaller" alt="Fighter Icon"> Fighter</a>
-                                    </li>
-                                    <li class="nav-item py-0 pl-0">
-                                        <a class="nav-link text-dark" href="#othersubclasses" 
-                                        role="tab" aria-controls="othersubclasses" aria-selected="false">
-                                        <img src="../images/skill tree/blank_icon.png" class="wfuck" alt="">Other Subclasses</a>
-                                    </li>
-                                </ul>
-
-                            </div>
-                            <!-- text -->
-                            <div class="card-body">
-                                    <div class="tab-content mt-3">
-                                        <!-- phantom -->
-                                    <div class="tab-pane active" id="phantom" role="tabpanel" aria-labelledby="phantom-tab">
-                                    <p class="card-text">
-
-                                        Easily the best subclass for Summoner. Poor PP recovery and high damage variance (30% versus most classes' 10%) 
-                                        are some of Summoner's most major issues, and Phantom addresses both these issues while also offering great multipliers for pet damage.<br><br>
-                                        Phantom is unique in that only a fraction of it's skills work when using Phantom as a subclass, so you don't have any real choices to make.
-                                        Take all of the skills mentioned below, and you're done.<br><br><br>
-                                        
-
-                                <!-- Phantom PP Restorate -->
-                                        <img src="../images/skill tree/phantom_icons/pp_restorate.png" alt="Phantom PP Restorate">
-                                        <span class="font-weight-bold">Phantom PP Restorate (5 SP)</span>
-                                        <div class="border-top border-dark my-2"></div>
-
-                                        <span class="text-blueish semibold">Increases your PP recovery by 30%.
-                                        </span>
-                                        This applies both to active PP recovery (your pets' normal attacks) and to your passive PP regeneration, 
-                                        meaning you'll have approximately a fuck ton more PP than you would while using any other subclass.
-                                        <div class="border-top border-dark my-3"></div><br>
-
-                                <!-- Critical Stream -->
-                                        <img src="../images/skill tree/phantom_icons/stream.png" alt="Critical Stream">
-                                        <span class="font-weight-bold">Critical Stream (5 SP)</span>
-                                        <div class="border-top border-dark my-2"></div>
-
-                                        <span class="text-blueish semibold">Gain critical hit rate equal to 20% of your max PP, 
-                                        up to 60% critical hit rate. Gain critical damage equal 
-                                        to 3% of your max PP, up to 5% critical hit damage.
-                                        </span>
-                                        Where previous Summoner subclasses such as Fighter only offered 25% critical hit rate, 
-                                        Phantom offers up to 60%. Between Critical Stream and pet candy, 
-                                        Summoner can easily reach 100% critical hit rate to completely avoid dealing with damage variance.<br><br>
-
-                                        Requires 167 PP to gain the full benefit of this skill’s critical hit damage increase.
-                                        <div class="border-top border-dark my-3"></div><br>
-
-                                <!-- Photon Stream -->
-                                        <img src="../images/skill tree/phantom_icons/stream.png" alt="Photon Stream">
-                                        <span class="font-weight-bold">Photon Stream (5 SP)</span>
-                                        <div class="border-top border-dark my-2"></div>
-
-                                        <span class="text-blueish semibold">Gain a damage bonus equal to 5% of your max PP, up to 10% damage.
-                                        </span>
-                                        To get the full benefit of this skill you need to have 200 PP or higher.
-                                        <div class="border-top border-dark my-3"></div><br>
-
-                                <!-- All Attack Bonus Ph -->
-                                        <img src="../images/skill tree/phantom_icons/allatk.png" alt="All Attack Bonus Ph">
-                                        <span class="font-weight-bold">All Attack Bonus Ph (5 SP)</span>
-                                        <div class="border-top border-dark my-2"></div>
-
-                                        <span class="text-blueish semibold">Increases your pets' damage by 35%.
-                                        </span>
-
-                                        <div class="border-top border-dark my-3"></div><br>
-
-                                <!-- PP High Up -->
-                                        <img src="../images/skill tree/phantom_icons/ppup.png" alt="PP High Up">
-                                        <span class="font-weight-bold">PP High Up (10 SP)</span>
-                                        <div class="border-top border-dark my-2"></div>
-
-                                        <span class="text-blueish semibold">Increases your maximum PP by 20.
-                                        </span>
-
-                                        <div class="border-top border-dark my-3"></div><br>
-
-                                <!-- Tech Short Charge -->
-                                        <img src="../images/skill tree/phantom_icons/techshortcharge.png" alt="Tech Short Charge">
-                                        <span class="font-weight-bold">Tech Short Charge (5 SP)</span>
-                                        <div class="border-top border-dark my-2"></div>
-
-                                        <span class="text-blueish semibold">Reduces technique charge time by 50%, technique damage by 30%, and PP consumption by 30%.
-                                        </span>
-
-                                        Quicker charge time allows you to more quickly buff your pet with techniques like Shifta, and more easily weave in Zanverse for extra damage.
-                                        The PP consumption reduction also saves you a lot of PP over the course of a quest. Summoner only uses support techniques and movement techniques,
-                                        so this skill's technique damage reduction won't impact you much.
-
-                                        <div class="border-top border-dark my-3"></div><br>
-
-                                <!-- Sprint Tech Charge -->
-                                        <img src="../images/skill tree/phantom_icons/sprinttechcharge.png" alt="Sprint Tech Charge">
-                                        <span class="font-weight-bold">Sprint Tech Charge (1 SP)</span>
-                                        <div class="border-top border-dark my-2"></div>
-
-                                        <span class="text-blueish semibold">Move faster while charging techniques.
-                                        </span>
-                                        
-                                        This isn't super crucial, but you've got more than enough SP for it. Nice for buffing your pet without coming to a complete crawl.
-
-                                        <div class="border-top border-dark my-3"></div><br>
-
-                                 <!-- Phantom Mag -->
-                                        <img src="../images/skill tree/phantom_icons/sprinttechcharge.png" alt="Sprint Tech Charge">
-                                        <span class="font-weight-bold">Phantom Mag (0 SP)</span> <span class="semibold text-muted">(Default Skill)</span>
-                                        <div class="border-top border-dark my-2"></div>
-
-                                        <span class="text-blueish semibold">Converts your Mag’s Dexterity into all three attack types.
-                                        </span>
-
-                                        Provides Su/Ph the choice of using a Dex mag instead of a T-ATK mag. 
-                                        Dexterity lowers damage variance by increasing the minimum damage that you can deal, 
-                                        and lowers the minimum damage that you take from attacks.<br><br>
-
-                                        Increasing your minimum damage doesn’t do anything for you as you should be striving for 100% critical hit rate on Su/Ph anyways. 
-                                        Dexterity lowering minimum damage taken will apply, making a Dex mag slightly better than a T-ATK mag from a defensive standpoint.
-                                        In the end it’s not a world of difference. So while Dex is optimal, a T-ATK mag is still fine.
-
-                                        <div class="border-top border-dark my-3"></div>
-
-                                    </div>
-                                
-                                        <!-- fighter -->
-                                    <div class="tab-pane" id="fighter" role="tabpanel" aria-labelledby="fighter-tab">
-                                    <p class="card-text">
-                                        hi
-                                    </div>
-
-                                        <!-- other subclasses -->
-                                    <div class="tab-pane" id="othersubclasses" role="tabpanel" aria-labelledby="othersubclasses-tab">
-                                    <p class="card-text">
-                                        hiu
-                                    </div>
-                                
-                        
-                                            
-                                    </div>
-                            </div>
-            </div> <!-- close container -->
-                            
-                    
-				</div> <!-- close col -->
-			</div> <!-- close row -->
-		</div> <!-- close container -->
-
-                <!-- bg image 2 // FIXED BACKGROUND IMAGE, hidden on xs and sm screens -->
-                <section id="fixedbgimgtwo" class="my-5 border-top border-bottom border-dark 
-                d-none d-sm-block d-sm-none d-md-block">
-                        <!-- img defined in css -->
-                </section>
-
-                <!-- bg image  2 // NON-FIXED BACKGROUND IMAGE, displays only on xs and sm screens-->
-                <!-- I should better name the ID for this but I won't -->
-                <section id="fixedbgimgmobiletwo" class="my-5 border--top border-bottom border-dark 
-                d-block d-sm-none d-block d-sm-none">
-                        <!-- img defined in css -->
-                </section>
-
-        <!-- Pietro Text Container -->
-        <div class="container mt-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-6 my-auto" id="pietro">
-                    <h3 class="boldtitlelarge">Pietro</h3>
-                    <div class="border-top-top border-top-dark my-3"></div>
-                    Everyone’s <del>most despised</del> favourite Class Teacher. 
-                    On top of offering you client orders which reward you with additional Summoner skill points (complete these ASAP!),
-                    Pietro also offers repeatable client orders that reward pet candy.<br><br>
-                    
-                    Pietro also offers you the option to "Limit Break" your pet, which enables 12★ or higher
-                    pets to level past level 100.<br><br>
-                </div>
-        
-                <div class="col-sm-9 col-md-8 col-lg-4 col-10 my-auto">
-                    <img class="w-100 rounded" src="../images/skill tree/skilltree_pietro.png" alt="Pietro">
-                </div>
-            </div>
-        </div> <!-- close container -->
-
-        <!-- Pietro Container --> 
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-12 mx-auto">
-                    <div class="card border-dark">
-                        <!-- headings -->
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs justify-content-center" id="listjs" role="tablist">
-                                <li class="nav-item py-0 pr-0">
-                                    <a class="nav-link active text-blueish" href="#skillpoints" role="tab" aria-controls="skillpoints" aria-selected="true">Skill Point Client Orders</a>
-                                </li>
-                                <li class="nav-item py-0 pr-0 pl-0">
-                                    <a class="nav-link text-slateish"  href="#candy" role="tab" aria-controls="candy" aria-selected="false">Candy Client Orders</a>
-                                </li>
-                            </ul>
-
-                        </div>
-                        <!-- text -->
-                        <div class="card-body">
-
-                                <div class="tab-content mt-3">
-
-                                        <!-- sp cos -->
-                                    <div class="tab-pane active" id="skillpoints" role="tabpanel" aria-labelledby="skillpoints-tab">
-                                    <p class="card-text">
-                                        
-                                        <table class="table table-responsive h-scroll-blueish">
-                                            <thead>
-                                            <tr>
-                                                <th scope="col" class="table-blueish text-light border-0">Client Order Name</th>
-                                                <th scope="col" class="table-blueish text-light border-0">Objective</th>
-                                                <th scope="col" class="table-blueish text-light border-0">Clear Reward</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td class="semibold" scope="row">Becoming a Top-Notch Summoner</td>
-                                                <td>Defeat [Fang Banshee] x1, [Gwanahda] x1</td>
-                                                <td>+5 Summoner Skill Points</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="semibold" scope="row">Let's Master the Summoner!</td>
-                                                <td>Defeat [Big Vardha] x1, [Quartz Dragon] x1, [Snow Banther] x1</td>
-                                                <td>+5 Summoner Skill Points</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="semibold" scope="row">The Perfect Summoner I</td>
-                                                <td>Deliver [Su Excube] x1</td>
-                                                <td>+1 Summoner Skill Point</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="semibold" scope="row">The Perfect Summoner II</td>
-                                                <td>Deliver [Su Excube] x2</td>
-                                                <td>+1 Summoner Skill Point</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="semibold" scope="row">The Perfect Summoner III</td>
-                                                <td>Deliver [Su Excube] x3</td>
-                                                <td>+1 Summoner Skill Point</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="semibold" scope="row">The Perfect Summoner IV</td>
-                                                <td>Deliver [Su Excube] x4</td>
-                                                <td>+1 Summoner Skill Point</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-
-                                        <span class="semibold text-blueish">These client orders may only be completed once.</span>
-                                        Make sure to complete your Skill Point client orders on your subclass as well!
-
-                                    </div>
-                                
-                                        <!-- candy cos -->
-                                    <div class="tab-pane" id="candy" role="tabpanel" aria-labelledby="candy-tab">
-                                    <p class="card-text">
-
-                                        <table class="table table-responsive h-scroll-slateish">
-                                            <thead>
-                                            <tr>
-                                                <th scope="col" class="table-slateish text-light border-0">Client Order Name</th>
-                                                <th scope="col" class="table-slateish text-light border-0">Objective</th>
-                                                <th scope="col" class="table-slateish text-light border-0">Clear Reward</th>
-                                            </tr>
-                                            </thead>
-                                            <tbody>
-                                            <tr>
-                                                <td class="semibold" scope="row">My Gallant Wanda!</td>
-                                                <td>Defeat [Any Lv.61+ Enemy] x60 using Wanda</td>
-                                                <td>Two Layer Pancake/<span class="text-info semibold">Double Stack Pancake</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="semibold" scope="row">My Gallant Torim!</td>
-                                                <td>Defeat [Any Lv.61+ Enemy] x60 using Torim</td>
-                                                <td>Sta-Spi Cookie/<span class="text-info semibold">Stamina Spirit Cookie</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="semibold" scope="row">My Gallant Cery!</td>
-                                                <td>Defeat [Any Lv.61+ Enemy] x60 using Cery</td>
-                                                <td>Tech-Arm Cookie/<span class="text-info semibold">Casting Deftness Cookie</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="semibold" scope="row">My Gallant Maron!</td>
-                                                <td>Defeat [Any Lv.61+ Enemy] x60 using Maron</td>
-                                                <td>Latency Roll/<span class="text-info semibold">Cloak and Dagger Roll</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="semibold" scope="row">My Gallant Melon!</td>
-                                                <td>Defeat [Any Lv.61+ Enemy] x60 using Melon</td>
-                                                <td>Finish Roll/<span class="text-info semibold">Finisher Roll</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="semibold" scope="row">My Gallant Viola!</td>
-                                                <td>Defeat [Any Lv.61+ Enemy] x60 using Viola</td>
-                                                <td>Reversal Parfait/<span class="text-info semibold">Comeback Parfait</span></td>
-                                            </tr>
-                                            <tr>
-                                                <td class="semibold" scope="row">Becoming a Top-Notch Summoner</td>
-                                                <td>Defeat [Fang Banshee] x1, [Gwanahda] x1</td>
-                                                <td>+5 Summoner Skill Points</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="semibold" scope="row">Becoming a Top-Notch Summoner</td>
-                                                <td>Defeat [Fang Banshee] x1, [Gwanahda] x1</td>
-                                                <td>+5 Summoner Skill Points</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="semibold" scope="row">Becoming a Top-Notch Summoner</td>
-                                                <td>Defeat [Fang Banshee] x1, [Gwanahda] x1</td>
-                                                <td>+5 Summoner Skill Points</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="semibold" scope="row">Becoming a Top-Notch Summoner</td>
-                                                <td>Defeat [Fang Banshee] x1, [Gwanahda] x1</td>
-                                                <td>+5 Summoner Skill Points</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="semibold" scope="row">Becoming a Top-Notch Summoner</td>
-                                                <td>Defeat [Fang Banshee] x1, [Gwanahda] x1</td>
-                                                <td>+5 Summoner Skill Points</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="semibold" scope="row">Becoming a Top-Notch Summoner</td>
-                                                <td>Defeat [Fang Banshee] x1, [Gwanahda] x1</td>
-                                                <td>+5 Summoner Skill Points</td>
-                                            </tr>
-                                            <tr>
-                                                <td class="semibold" scope="row">Becoming a Top-Notch Summoner</td>
-                                                <td>Defeat [Fang Banshee] x1, [Gwanahda] x1</td>
-                                                <td>+5 Summoner Skill Points</td>
-                                            </tr>
-                                            </tbody>
-                                        </table>
-
-                                        <span class="semibold text-slateish">These client orders are repeatable every 7 days.</span>
-
-                                    </div>
-    
-                                </div>
-                        </div>
-
-        </div> <!-- close container -->
-                        
-                
-            </div> <!-- close col -->
-        </div> <!-- close row -->
-        </div> <!-- close container -->
-        
-        <div   style="height: 15vh;"></div>
-
-         <!-- Ariel Text Container -->
-         <div class="container mt-5">
-            <div class="row justify-content-center">
-                <div class="col-lg-5 mt-5 my-auto" id="ariel">
-                    <h3 class="boldtitlelarge">Ariel</h3>
-                    <div class="border-top-top border-top-dark my-3"></div>
-                   This is the Summoner NPC you’ll spend most of your time at. 
-                   Through Ariel you can compress candy, upgrade your pets’ rarity, and obtain various pet items and candy. Ariel can be found in the Shop Area, next to Dudu or Monica.<br><br>
-                </div>
-
-                <div class="col-sm-9 col-md-8 col-lg-4 col-10 my-auto">
-                    <img class="w-100 rounded" src="../images/skill tree/skilltree_ariel.png" alt="Ariel">
-                </div>
-            </div>
-        </div> <!-- close container -->
-
-        <!-- Ariel Container --> 
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-12 mx-auto ">
-
-                    <div class="card">
-
-                        <!-- headings -->
-                        <div class="card-header">
-
-                            <ul class="nav nav-tabs card-header-tabs justify-content-center" id="listjs" role="tablist">
-                                <li class="nav-item py-0 pr-0">
-                                    <a class="nav-link active text-mintish" href="#">Pet Lab Menu</a>
-                                </li>
-                            </ul>
-
-                        </div>
-
-                        <!-- text -->
-                        <div class="card-body">
-                                <div class="tab-content mt-3">
-                                    <!-- sp cos -->
-                                <div class="tab-pane active">
-                                <p class="card-text">
-                                    
-                                    <table class="table">
-                                        <thead>
-                                          <tr>
-                                            <th scope="col" class="table-mintish border-0">Menu Item</th>
-                                            <th scope="col" class="table-mintish border-0">Description</th>
-                                          </tr>
-                                        </thead>
-                                        <tbody>
-                                          <tr>
-                                            <td class="semibold w-25" scope="row">Candy Compression</td>
-                                            <td>By default, candy takes up hella space in your pet's candy boxes. Compression will increase the grind on your candy, 
-                                                making it take up significantly less space.<br><br> 
-                                                <span class="semibold text-mintish">Sticks, Sandwiches, and Gummies cannot be compressed.</span>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <td class="semibold" scope="row">Change Pet Name</td>
-                                            <td>Spend 500 Meseta to rename any one of your pets. Has an 8 character limit.</td>
-                                          </tr>
-                                          <tr>
-                                            <td class="semibold" scope="row">Evolve Pet Rarity</td>
-                                            <td>Select a pet from your pet list, and an egg of the same type from your inventory which is equal or higher rarity
-                                                 - this will keep your current pet's level, stats, and candy, but upgrade it's rarity to that of the egg. 
-                                                Can also be used to give your pet a different personality, or to upgrade Wanda/Torim/Cery into Jinga/Aero/Popple.
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <td class="semibold" scope="row">Return Pet to Egg</td>
-                                            <td>Convert a pet back into an egg. Your pet will retain its levels and stats, but if you've crushed caramel on your pet,
-                                                you'll need to crush it again when you add the pet back to your pet list.<br><br> 
-                                                <span class="semibold text-mintish">Any candy on the pet will be lost upon being converted to an egg, so remove it before selecting this option.</span>
-                                            </td>
-                                          </tr>
-                                          <tr>
-                                            <td class="semibold" scope="row">Pet Goods Shop</td>
-                                            <td>Trade resources for a variety of pet and candy items, 
-                                                including EXP Eggs, Caramel Crushers, Pancakes, and Ramunes.</td>
-                                          </tr>
-                                        </tbody>
-                                    </table>
-
-                                </div>
-                                </div>
-                        </div>
-                    </div> <!-- close container -->
-                </div> <!-- close col -->
-            </div> <!-- close row -->
-        </div> <!-- close container -->
+        <p class="text-center">Jinga PAs and candy can go here later</p>
 
 		<div   style="height: 30vh;"></div>
     
