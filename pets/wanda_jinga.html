@@ -10,13 +10,13 @@
 		jinga, torim, trim, aero, cery, sally, popple, maron, 
 		marron, melon, rappy, viola, synchro, redran, grass, glass">
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css">
 		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet"> 
         <script src="https://kit.fontawesome.com/6d78549c29.js" crossorigin="anonymous"></script>
-        <link href="css/style.css" rel="stylesheet">
-        <script src="js/skilltree_subclass_npcs.js"></script>
-        <link href="css/skilltree_subclass.css" rel="stylesheet">
-        <link rel="icon" href="images/su_icon.png" type="images/gif" sizes="16x16"> 
+        <link href="../css/style.css" rel="stylesheet">
+        <script src="../js/skilltree_subclass_npcs.js"></script>
+        <link href="../css/skilltree_subclass.css" rel="stylesheet">
+        <link rel="icon" href="../images/su_icon.png" type="images/gif" sizes="16x16"> 
 
 	</head>
 	<body data-spy="scroll" data-target=".navbarskilltree" data-offset="400">
@@ -34,31 +34,31 @@
 
                     <div class="collapse navbar-collapse" id="navbarTop">
                         <ul class="navbar-nav ml-auto">
-                            <li class="nav-item"><a href="index.html" class="nav-link">Intro</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link active">Skill Tree, Subclass, NPCs</a></li>
-                            <li class="nav-item"><a href="petsetup_candy.html" class="nav-link">Pet Setup, Candy</a></li>
-                            <li class="nav-item"><a href="pets/introduction.html" class="nav-link">Pets</a></li>
-                            <li class="nav-item"><a href="equipment.html" class="nav-link">Equipment</a></li>
-                            <li class="nav-item"><a href="credits.html" class="nav-link">Credits</a></li>
+                            <li class="nav-item"><a href="../index.html" class="nav-link">Intro</a></li>
+                            <li class="nav-item"><a href="../" class="nav-link">Skill Tree, Subclass, NPCs</a></li>
+                            <li class="nav-item"><a href="../petsetup_candy.html" class="nav-link">Pet Setup, Candy</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link active">Pets</a></li>
+                            <li class="nav-item"><a href="../equipment.html" class="nav-link">Equipment</a></li>
+                            <li class="nav-item"><a href="../credits.html" class="nav-link">Credits</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
 
-        <!-- Pet Images put unique images here later -->
+        <!-- Pet Images -->
 		<div id="carousel" class="carousel slide border border-dark w-100" data-ride="carousel" data-interval="6500">
 			<div class="carousel-inner">
 
 				<div class="carousel-item">
-					<img src="images/index/s_redran_header.png" class="w-100" alt="">
+					<img src="../images/index/s_redran_header.png" class="w-100" alt="">
 				</div>
 
 				<div class="carousel-item">
-					<img src="images/index/s_maron_header.jpg" class="w-100" alt="">
+					<img src="../images/index/s_maron_header.jpg" class="w-100" alt="">
 				</div>
 
 				<div class="carousel-item active">
-					<img src="images/index/s_torim_header.png" class="w-100" alt="">
+					<img src="../images/index/s_torim_header.png" class="w-100" alt="">
 				</div>
 
 
@@ -67,12 +67,12 @@
 
     </div> <!-- end nav sticky-->
         
-        <!-- Skill Tree, Subclass, & NPCs Navigation -->
+        <!-- Pets Nav -->
         <nav class="navbar navbarskilltree navbar-dark navbar-expand-lg sticky-top 
         border-top border-bottom border-dark w-100" style="background-color: #b04a7c">
             <div class="div container">
 
-                <a href="#" class="navbar-brand">Skill Tree, Subclass, & NPCs</a>
+                <a href="#" class="navbar-brand">Pets</a>
                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarBottom">
                     <span class="navbar-toggler-icon"></span>
@@ -80,10 +80,14 @@
 
                 <div class="collapse navbar-collapse" id="navbarBottom">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a href="#skilltree" class="nav-link">Skill Tree</a></li>
-                        <li class="nav-item"><a href="#subclass" class="nav-link">Subclass</a></li>
-                        <li class="nav-item"><a href="#pietro" class="nav-link">Pietro</a></li>
-                        <li class="nav-item"><a href="#ariel" class="nav-link">Ariel</a></li>
+                        <li class="nav-item"><a class="nav-link active">Wanda/Jinga</a></li>
+                        <li class="nav-item"><a class="nav-link">Torim/Aero</a></li>
+                        <li class="nav-item"><a class="nav-link">Cery/Popple</a></li>
+                        <li class="nav-item"><a class="nav-link">Maron/Melon</a></li>
+                        <li class="nav-item"><a class="nav-link">Synchro</a></li>
+                        <li class="nav-item"><a class="nav-link">Viola</a></li>
+                        <li class="nav-item"><a class="nav-link">Redran/Glass</a></li>
+                        <li class="nav-item"><a class="nav-link">Rappy</a></li>
                     </ul>
                 </div>
             </div>
@@ -91,402 +95,100 @@
 
         <div   style="height: 6vh;"></div>
 
-        <!-- Skills Text Container-->
+        <!-- Wanda/Jinga Text Container-->
 		<div class="container mt-5">
 			<div class="row justify-content-center">
-				<div class="col-lg-6 mb-4 my-auto" id="skilltree">
-					<h3 class="boldtitlelarge">Skill Tree</h3>
+				<div class="col-lg-6 mb-4 my-auto">
+					<h3 class="boldtitlelarge">Wanda/Jinga</h3>
 					<div class="border-top-top border-top-dark my-3"></div>
 
-                        Summoner has a pretty straightforward tree. 
-                        Most of Summoner’s skills benefit your ability to do damage 
-						with your pet in one way or another or provide useful utility,
-                        which doesn’t leave you with much room to invest in the skills that don't.
-                        <br><br>
-						Recommended skill trees for both the Japanese and North American servers can be found at 
-						<a class="highlight underline" href="https://arks-layer.com/classbuilds" target="_blank">https://arks-layer.com/classbuilds</a>, but I’d recommend reading the following explanations on why certain skills are or aren’t used first.
-                        <br><br>
-                        To start assigning Skill Points, visit Bea in the gate area.<br><br>
+                        This pet excels at dispatching crowds of mobs, but falls behind other pets when tasked with fighting a single target for an extended period of time.<br><br>
+
+                        Because of this pet's great mobbing capabilities, solid survivability, and passable single target damage output, this is definitely the pet to focus on if you're new to the class.
+
 				</div>
 		
                 <div class="col-sm-9 col-md-8 col-lg-4 col-10 my-auto">
-                    <img class="w-100 rounded" src="images/skill tree/skilltree_bea.png" alt="Class Counter Attendant, Bea">
+                    <img class="w-100 rounded" src="../images/pets/wanda_jinga/jinga.png" alt="Shiny Jinga">
                 </div>
 			</div>
         </div>
 
-        <!-- Skills Container -->
+            <!-- Pet Setup Container-->
         <div class="container mt-5">
-            <div class="row">
-                <div class="col-12 mx-auto">
-                    <div class="card border-dark">
-                        <!-- headings -->
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs justify-content-center" id="listjs" role="tablist">
+            <div class="card border-dark">
+                <p class="card-header text-blueish semibold">Wanda vs Jinga</p>
+                    <div class="card-body">
+                        <div class="row">
 
-                                <li class="nav-item py-0 pr-0">
-                                    <a class="nav-link active text-mintish" href="#core" role="tab" aria-controls="core" aria-selected="true">Core</a>
-                                </li>
-                                <li class="nav-item py-0 pl-0 pr-0">
-                                    <a class="nav-link text-blueish"  href="#recommended" role="tab"  aria-controls="recommended" aria-selected="false">Recommended</a>
-                                </li>
-                                <li class="nav-item py-0 pl-0 pr-0">
-                                    <a class="nav-link text-slateish" href="#optional" role="tab" aria-controls="optional" aria-selected="false">Optional</a>
-                                </li>
-                                <li class="nav-item py-0 pl-0 pr-0">
-                                    <a class="nav-link text-danger" href="#notrecommended" role="tab" aria-controls="notrecommended" aria-selected="false">Not Recommended</a>
-                                </li>
-                                <li class="nav-item py-0 pl-0">
-                                    <a class="nav-link text-info" href="#naspecific" role="tab" aria-controls="naspecific" aria-selected="false">NA Specific</a>
-                                </li>
-
-                            </ul>
-                        </div>
-                        <!-- text -->
-                        <div class="card-body col-11 mx-auto">
-                                <div class="tab-content mt-3">
-
-                                    <!-- core -->
-                                <div class="tab-pane active" id="core" role="tabpanel" aria-labelledby="core-tab">
-                                <p class="card-text">
-
-                            <!-- Dear Master/Dia Master -->
-                                    <img src="../images/skill tree/summoner_icons/dearmaster.png" alt="Dear Master" class="mb-2">
-                                    <span class="font-weight-bold">Dear Master (5 SP)</span><br>
-
-                                    <span class="text-mintish semibold">When taking damage that would kill you, 
-                                    your pet receives the damage instead.</span> 
-                                    This skill is crucial to Summoner gameplay because by default, your character has no
-                                    defensive mechanisms outside of dodging. No invincibility frames, guard frames, nothing.
-                                    Investing into this skill allows you to be unburdened with caring about your character's health bar,
-                                    which leaves you much more time to focus on your pet in combat.<br><br><br>
-
-
-                            <!-- Pet Sympathy -->
-                                    <img src="../images/skill tree/summoner_icons/petsympathy.png" alt="Pet Sympathy" class="mb-2">
-                                    <span class="font-weight-bold">Pet Sympathy (10 SP)</span><br>
-
-                                    <span class="text-mintish semibold">Allows your pets to request Shifta and Resta casts. 
-                                    When you cast Shifta at your pet’s request, your pet gains a +20% damage buff. 
-                                    When you cast Resta at your pet’s request, your pet gains a 200% HP recovery buff. 
-                                    These buffs last 90s.</span> 
-
-                                    Simply cast the technique your pet requests and it will gain a damage/HP recovery buff. 
-                                    Make sure to take the time to meet your pets’ requests as it 
-                                    can sometimes take your pet a while to request again. Meeting a Pet Sympathy request
-                                    while it's already active will refresh the buff.
-                                
-                                    <div class="center mt-2 mb-2">
-                                        <img src="../images/skill tree/wanda_shiftasympathy.png" class="rounded my-2 mr-2"  width="263" height="201" alt="Wanda requesting Shifta Sympathy"> 
-                                        <img src="../images/skill tree/wanda_restasympathy.png" class="rounded my-2 mr-2" width="263" height="201" alt="Wanda requesting Resta Sympathy">
-                                        <img src="../images/skill tree/wanda_sympathymet.png" class="rounded my-2" width="263" height="201" alt="Wanda after you've met its Sympathy request"><br>
-                                    </div>
-
-                                    As a note, pets are more likely to request Shifta Sympathy while around bosses and typically request Resta Sympathy when they're low on HP.<br><br><br>
-
-
-                            <!-- Assist Share -->
-                                    <img src="../images/skill tree/summoner_icons/assistshare.png" alt="Assist Share" class="mb-2">
-                                    <span class="font-weight-bold">Assist Share (1 SP)</span><br>
-
-                                    <span class="text-mintish semibold">When switching pets, any buffs such as 
-                                    Pet Sympathy, Shifta, and Deband will be automatically transferred from your 
-                                    current pet to the next.
-                                    </span> 
-
-                                    Without this skill you would lose Pet Sympathy when switching pets, 
-                                    and you would need to reapply Shifta every time you switch pets. 
-                                    Extremely important skill for the cost of just 1 SP.<br><br><br>
-                                
-                            <!-- Point Assist/Summoner's Mark -->
-                                    <img src="../images/skill tree/summoner_icons/pointassist.png" alt="Point Assist. NA: Summoner's Mark" class="mb-2">
-                                    <span class="font-weight-bold">Point Assist/<span class="text-info">Summoner's Mark</span> (10 SP)</span><span class="semibold">, Active Skill </span><br>
-
-                                    <span class="text-mintish semibold">Places a marker on an enemy. 
-                                    Damage dealt to the marked point by you and your pets is 
-                                    increased by 15%. Marker lasts 40s. 5s cooldown. 
-                                    </span> 
-
-                                    A crucial tool for dealing damage to bosses. Do note that this skill is much less 
-                                    effective in mobbing situations - stopping to cast this on one enemy when you could
-                                    be slaying the whole crowd usually doesn't make much sense.<br><br><br>
-
-                            <!-- Support Fire/Enhanced Mark -->
-                                    <img src="../images/skill tree/summoner_icons/enhancedmark.png" alt="Support Fire. NA: Enhanced Mark" class="mb-2">
-                                    <span class="font-weight-bold">Support Fire/<span class="text-info">Enhanced Mark</span> (1 SP)</span><br>
-
-                                    <span class="text-mintish semibold">Increases damage dealt to a Point Assist-marked enemy by 10%. 
-                                    </span> 
-
-                                    With the addition of Support Fire, you will deal a total of +26% damage 
-                                    to the marked point and +10% damage to anywhere else on the enemy.<br><br><br>
-                                
-                            <!-- Alter Ego -->
-                                    <img src="../images/skill tree/summoner_icons/alterego.png" alt="Alter Ego" class="mb-2">
-                                    <span class="font-weight-bold">Alter Ego (10 SP)</span><span class="semibold">, Active Skill </span><br>
-
-                                    <span class="text-mintish semibold">For 60 seconds, your pet deals 20% more damage, 
-                                    however, 80% of damage dealt to your pet is also received by you. Has a 30s cooldown.
-                                    </span> 
-
-                                    Taking that much extra damage might sound harsh, but +20% damage is <span class="font-italic">massive</span>, 
-                                    so this skill is mandatory. That said, Summoner’s level 85 Skill, 
-                                    Alter Ego Harmony, makes this much more manageable. 
-                                    Don’t be afraid to take this skill and use it often!<br><br><br>
-
-                            <!-- Alter Ego Harmony -->
-                                    <img src="../images/skill tree/summoner_icons/alteregoharmony.png" alt="Alter Ego Harmony" class="mb-2">
-                                    <span class="font-weight-bold">Alter Ego Harmony (0 SP)</span><span class="semibold">, Requires Level 85 </span><br>
-
-                                    <span class="text-mintish semibold">While Alter Ego is active, 
-                                    damage dealt to you or your pet is reduced by 80%. Additionally, 
-                                    you gain Super Armour and are immune to status effects.
-                                    </span> 
-
-                                    This skill significantly reduces the damage you and your pets take 
-                                    and makes you immune to nearly all stuns, 
-                                    knockdowns, and displacements while Alter Ego is enabled. Always take this skill.
-
-                                    <span class="text-info semibold">This skill is currently not available on the NA servers.
-                                    </span><br><br><br>
-
-                            <!-- All Attack Bonus 1 & 2 -->
-                                    <img src="../images/skill tree/summoner_icons/allatk.png" alt="All Attack Bonus 1" class="mb-2">
-                                    <img src="../images/skill tree/summoner_icons/allatk.png" alt="All Attack Bonus 2" class="mb-2">
-                                    <span class="font-weight-bold">All Attack Bonus 1 & 2 (5 SP Each)</span><br>
-
-                                    <span class="text-mintish semibold">Increase you and your pets' damage by 32% total.</span><br><br><br>
-
-                            <!-- High Level Bonus Su -->
-                                    <img src="../images/skill tree/summoner_icons/allatk.png" class="imgfloatleft" alt="High Level Bonus Su">
-                                    <span class="font-weight-bold">High Level Bonus Su (5 SP)</span><span class="semibold">, Requires Level 80</span><br>
-
-                                    <span class="text-mintish semibold">Increase you and your pet's damage by 5%.</span>
-
-                                    <span class="text-info semibold">This skill is currently not available on the NA servers.
-                                    </span><br><br><br>
+                                <!-- Collumn 1, Text -->
+                            <div class="col-lg-4 col-md-10 col-sm-10 col-10">
+                                <br>
+                                    Wanda and Jinga have the same Photon Arts and Personalities, but differ otherwise.<br><br>
                                     
-                                
-                                </div>
+                                    As the evolved form of Wanda, Jinga is usually what you want to go for because of it's shorter revive time,
+                                    lower PA costs, and increased range.
+                                    <br><br><br>
                             
-                                    <!-- reco -->
-                                <div class="tab-pane" id="recommended" role="tabpanel" aria-labelledby="recommended-tab">
-                                <p class="card-text">
-                                    
-                            <!-- Harmonize Up -->
-                                    <img src="../images/skill tree/summoner_icons/sympathyskillgeneral.png" alt="Harmonize Up">
-                                    <span class="font-weight-bold">Harmonize Up (5 SP)</span>
-                                    <div class="border-top border-dark my-2"></div>
-
-                                    <span class="text-blueish semibold">Increase the chance of your pet requesting
-                                    Pet Sympathy to 300%.
-                                    </span>
-
-                                    Not having Shifta Sympathy hurts your damage a lot, so this skill is worth investing in to prevent that as much as possible.
-
-                                    <div class="border-top border-dark my-3"></div><br>
-
-                            <!-- Sympathy Time -->
-                                    <img src="../images/skill tree/summoner_icons/sympathyskillgeneral.png" class="imgfloatleft" alt="Sympathy Time">
-                                    <span class="font-weight-bold">Sympathy Time (5 SP)</span>
-                                    <div class="border-top border-dark my-2"></div>
-
-                                    <span class="text-blueish semibold">Extend the duration of Pet Sympathy by 200%.
-                                    </span>
-
-                                    Same idea as Harmonize Up. Losing Shifta Sympathy sucks, and it probably makes your pet feel pretty unloved as well.
-                                    Take this skill to prevent that.
-
-                                   <div class="border-top border-dark my-3"></div><br>
-
-                            <!-- Easy Sympathy -->
-                                    <img src="../images/skill tree/summoner_icons/sympathyskillgeneral.png" class="imgfloatleft" alt="Easy Sympathy">
-                                    <span class="font-weight-bold">Easy Sympathy (1 SP)</span>
-                                    <div class="border-top-top-top my-2"></div>
-
-                                    <span class="text-blueish semibold">Extend the acceptance window of Pet Sympathy requests by 10s.
-                                    </span>
-
-                                    This allows you to put off activating pet Sympathy for a little while 
-                                    if you’re busy doing something else in combat, such as fighting an enemy during it's knockdown phase, 
-                                    where you really don't want to lose out on damage just 'cause your pet chose a bad time to ask you for buffs.<br><br>
-
-                                    A nice utility that's definitely worth 1 SP.
-
-                                    <div class="border-top border-dark my-3"></div><br>
-
-                            <!-- Long Distance Love -->
-                                    <img src="../images/skill tree/summoner_icons/longdistancelove.png" class="imgfloatleft" alt="Long Distance Love">
-                                    <span class="font-weight-bold">Long Distance Love (1 SP)</span>
-                                    <div class="border-top border-dark my-2"></div>
-
-                                    <span class="text-blueish semibold">Gain the ability to meet Pet Sympathy requests from a distance.
-                                    </span>
-
-                                    Being able to meet your pets' requests without taking the time to recall them is pretty nice.
-                                    Less time wasted moving the pet in and out of combat means more time for your pet to fuck enemies up.
-
-                                    <div class="border-top border-dark my-3"></div><br>
-
-                            <!-- Pet Element Weak Hit/Pet Elemental Precision Hit -->
-                                    <img src="../images/skill tree/summoner_icons/petelementweakhit.png" class="imgfloatleft" alt="Pet Element Weak Hit. NA: Pet Elemental Precision Hit">
-                                    <span class="font-weight-bold">Pet Element Weak Hit/<span class="text-info">Pet Elemental Precision Hit</span> (5 SP)</span>
-                                    <div class="border-top border-dark my-2"></div>
-
-                                    <span class="text-blueish semibold">When your pet’s attribute matches the enemy’s weak attribute, 
-                                    increase your pet’s damage by 10%.
-                                    </span>
-
-                                    Much of PSO2's enemies are weak to Light, making this a relatively consistent 10% damage increase so long
-                                    as your Pets are Light element.<br><br>
-                                   
-                                    You can also invest in a type of candy called Ramunes, 
-                                    which allow you to change your pet’s attribute on the fly by slotting a 1x1 Candy
-                                    into your pet's candy box. Changing your element on the fly like this isn't required, but it is an option
-                                    if you wanna swap your pet's element for a quest or boss that isn't weak to Light.
-                                    
-                                    <div class="border-top border-dark my-3"></div><br>
-
-                            <!-- Pet Element PP Restorate/Pet Elemental PP Restorate -->
-                                    <img src="../images/skill tree/summoner_icons/petelementpprestorate.png" class="imgfloatleft" alt="Pet Element PP Restorate. NA: Pet Elemental PP Restorate">
-                                    <span class="font-weight-bold">Pet Element PP Restorate/<span class="text-info">Pet Elemental PP Restorate</span> (5 SP)</span>
-                                    <div class="border-top border-dark my-2"></div>
-
-                                    <span class="text-blueish semibold">When your pet’s attribute matches the enemy’s weak attribute, 
-                                    increase the PP recovery of your pets’ normal attacks by 50%.
-                                    </span>
-
-                                    Same deal as Pet Element Weak Hit. This is often active with a Light pet, and you can 
-                                    switch your pet’s attribute to make use of this skill more often than that if you wish.<br><br>
-
-                                    PP efficiency can be problematic on some pets, so it's very much recommended that you take this skill.
-
-                                    <div class="border-top border-dark my-3"></div><br>
-
-                            <!-- All Attacks Up/Total Attack Up -->
-                                        <img src="../images/skill tree/summoner_icons/allatk.png" alt="All Attacks Up. NA: Total Attack Up">
-                                        <span class="font-weight-bold">All Attacks Up/<span class="text-info">Total Attack Up</span> (5 SP)</span>
-                                        <div class="border-top border-dark my-2"></div>
-
-                                        <span class="text-blueish semibold">Increases your attack by 50.</span> 
-
-                                        <div class="border-top border-dark my-3"></div><br>
-
-                                <!-- All Attacks High Up/Total Attack Mega Up -->
-                                        <img src="../images/skill tree/summoner_icons/allatk.png" class="imgfloatleft" alt="All Attacks High Up. NA: Total Attack Mega Up">
-                                        <span class="font-weight-bold">All Attacks High Up/<span class="text-info">Total Attack Mega Up</span> (10 SP)</span>
-                                        <div class="border-top border-dark my-2"></div>
-
-                                        <span class="text-blueish semibold">Increases your attack by 150.</span>
-
-                                        While not as important as Summoner's other damage skills, this skill and it's predecessor still add up to a decent amount of attack. 
-                                        Summoner's tree isn't super constrained on SP, so we can afford to take this.
-                                        
-                                        <div class="border-top border-dark my-3"></div><br>
-
-                                <!-- PP Up 1 & 2 -->
-                                        <img src="../images/skill tree/summoner_icons/ppup.png" class="imgfloatleft" alt="PP Up 1">
-                                        <img src="../images/skill tree/summoner_icons/ppup.png" class="imgfloatleft" alt="PP Up 2">
-                                        <span class="font-weight-bold">PP Up 1 & 2 (5 & 10 SP)</span>
-                                        <div class="border-top border-dark my-2"></div>
-
-                                        <span class="text-blueish semibold">Increases your PP by up to 15.
-                                        </span>
-
-                                        If you’ve invested in all other skill points that interest you and 
-                                        still have skill points left over, this is a good place to invest them. 
-                                        Interacts well with Critical Stream on Phantom subclass.
-
-                                        <div class="border-top border-dark my-3"></div>
-                                        
-                                    
-                                </div>
-                            
-                                    <!-- optional -->
-                                <div class="tab-pane" id="optional" role="tabpanel" aria-labelledby="optional-tab">
-                                    <p class="card-text">
-
-                            <!-- Pet Recovery -->
-                                    <img src="../images/skill tree/summoner_icons/petrecovery.png" alt="Pet Recovery">
-                                    <span class="font-weight-bold">Pet Recovery (5 SP)</span>
-                                    <div class="border-top border-dark my-2"></div>
-
-                                    <span class="text-slateish semibold">Gradually recover your active pet’s HP.
-                                    </span>
-
-                                    You’ll need to invest 3 SP into this to access the rest of your skill tree, but investing the additional 2 SP to get +1% HP per 5s is optional.
-                                    Some extra HP regen usually won't save your pet's life when pets are getting clapped in a couple of hits in Ultra Hard.
-
-                                    <div class="border-top border-dark my-3"></div><br>
-
-                            <!-- Pet Photon Barrier -->
-                                    <img src="../images/skill tree/summoner_icons/petphotonbarrier.png" alt="Pet Photon Barrier">
-                                    <span class="font-weight-bold">Pet Photon Barrier (5 SP)</span>
-                                    <div class="border-top border-dark my-2"></div>
-
-                                    <span class="text-slateish semibold">Grants your pet a 10% chance to avoid damage.
-                                    </span>
-
-                                    5 SP for a 10% Iron Will is kinda lackluster, but then again if it's a choice between this and 5 more PP on your tree,
-                                    this isn't so bad. Definitely has higher value in Ultra Hard.
-
-                                    <div class="border-top border-dark my-3"></div><br>
-                                    
-                            <!-- Reserve Recovery -->
-                                    <img src="../images/skill tree/summoner_icons/reserverecovery.png" alt="Reserve Recovery">
-                                    <span class="font-weight-bold">Reserve Recovery (1 SP)</span>
-                                    <div class="border-top border-dark my-2"></div>
-
-                                    <span class="text-slateish semibold">Increases the HP recovery rate of inactive pets on your weapon palette.
-                                    </span>
-
-                                    Your inactive pets already recover HP quite quickly even without this skill, so this generally doesn't do a ton for you. 
-                                    If you find yourself in content where you're frequently switching pets this might have some value, maybe. It's only 1 SP
-                                    so grab it if you want.
-
-                                    <div class="border-top border-dark my-3"></div>
-
-                                </div>
-
-                                    <!-- please don't I will hurt you -->
-                                <div class="tab-pane" id="notrecommended" role="tabpanel" aria-labelledby="notrecommended-tab">
-                                    <p class="card-text">wow look at this unfinished filler text
-                                </div>
-
-                                <!-- switch strike is cool if you're an na player -->
-                                <div class="tab-pane" id="naspecific" role="tabpanel" aria-labelledby="naspecific-tab">
-                                    <p class="card-text">
-
-                            <!-- Pet Switch Strike -->
-                                    <img src="../images/skill tree/summoner_icons/petswitchstrike.png" alt="Pet Switch Strike">
-                                    <span class="font-weight-bold">Pet Switch Strike (1 SP)</span><span class="semibold">, Active Skill</span>
-                                    <div class="border-top border-dark my-2"></div>
-
-                                    <span class="text-info semibold">Changes your pets' damage to scale off of your Melee Power rather than your Tech Power.
-                                    </span>
-
-                                    The reason this skill is recommended for NA is because it allows you to take advantage of the
-                                    200 Melee Power found at the top of the Fighter tree.<br><br>
-                                   
-                                    These Melee Power Ups count as base attack, and as such are further increased by buffs such as Shifta and Team Tree Attack Boost,
-                                    which makes them a pretty decent damage increase. It's also just a better investment than Slayer skills which are conditional and don't scale with your buffs.<br><br>
-
-                                    As such, as long as Summoner on NA is stuck using Fighter instead of Phantom as it's subclass, it's optimal to run a Melee build using
-                                    Pet Switch Strike, a Melee Mag, Might Cookies on your pets, and Fighter's Melee Power ups.<br><br>
-
-                                    If you don't want to deal with setting up for Melee now, only to switch to Tech when Phantom subclass becomes available towards the end of 2020,
-                                    you can do so by using <a href="http://bit.ly/3azPpVp" target="_blank" class="highlight">this build</a> 
-                                    instead and supporting that with a Tech Power Mag, Casting Cookies, and Tech affixes.
-
-                                    <div class="border-top border-dark my-3"></div>
-
-                                </div>
-
                             </div>
+                            <!-- Collumn 2, Table -->
+                            <div class="col-lg-8 mx-auto">
+
+                                    <table class="table w-75 mx-auto table-responsive text-center mt-3">
+                                        <thead>
+                                        <tr>
+                                            <th scope="col" class="table-blueish border-0"></th>
+                                            <th scope="col" class="table-blueish text-light border-0">Wanda</th>
+                                            <th scope="col" class="table-blueish text-light border-0">Jinga</th>
+                                        </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td class="semibold" scope="row">Stats</td>
+                                                <td>Higher HP, Dex, and DEF</td>
+                                                <td>Higher ATK, Halved Revive Time</td>
+                                            </tr>
+                                        <tr>
+                                            <td class="semibold" scope="row">Slicer</td>
+                                            <td>10 PP</td>
+                                            <td>15 PP, Increased Range</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="semibold" scope="row">Break</td>
+                                            <td>15 PP</td>
+                                            <td>10 PP, Increased Power</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="semibold" scope="row">Assault</td>
+                                            <td>10 PP</td>
+                                            <td>5 PP, Increased Range</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="semibold" scope="row">Shock</td>
+                                            <td>20 PP</td>
+                                            <td>20 PP, Increased Range</td>
+                                        </tr>
+                                        <tr>
+                                            <td class="semibold" scope="row">Pulsar</td>
+                                            <td>30 PP</td>
+                                            <td>10 PP</td>
+                                        </tr>
+                                      
+                                        </tbody>
+                                    </table>
+
+                                    <span class="text-blueish center pb-4">Table information was sourced from 
+                                        <a class="text-dark" target="_blank" href="https://pso2.swiki.jp/index.php?ワンダ">https://pso2.swiki.jp/index.php?ワンダ</a>
+                                    </span>
+                                
+                            </div>
+                            
                         </div>
+
                     </div>
                 </div>
-            </div>
+                
+            </div> <!-- close card -->
         </div> <!-- close container -->
         
                 <!-- bg image // FIXED BACKGROUND IMAGE, hidden on xs and sm screens -->
