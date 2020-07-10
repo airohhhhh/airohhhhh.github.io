@@ -1765,6 +1765,24 @@ pre code {
   background-color: #b1dfbb;
 }
 
+.table-blueish,
+.table-blueish > th,
+.table-blueish > td {
+  background-color: #6FB2E2;
+}
+
+.table-slateish,
+.table-slateish > th,
+.table-slateish> td {
+  background-color: #335699;
+}
+
+.table-mintish,
+.table-mintish > th,
+.table-mintish> td {
+  background-color: #AEF5F6;
+}
+
 .table-info,
 .table-info > th,
 .table-info > td {
@@ -8840,19 +8858,43 @@ a.text-secondary:hover, a.text-secondary:focus {
 }
 
 .text-success {
-  color: #28a745 !important;
+  color: #28a745  !important;
 }
 
 a.text-success:hover, a.text-success:focus {
   color: #1e7e34 !important;
 }
 
+.text-blueish {
+  color: #4ea4e2 !important;
+}
+
+a.text-blueish:hover, a.blueish:focus {
+  color: #2d82be !important;
+}
+
+.text-slateish {
+  color: #335699 !important;
+}
+
+a.text-slateish:hover, a.blueish:focus {
+  color: #070d1a !important;
+} 
+
+.text-mintish {
+  color: #6bdab5   !important;
+}
+
+a.text-mintish:hover, a.blueish:focus {
+  color: #5eabad !important;
+}
+
 .text-info {
-  color: #9900ff !important;
+  color: #9163d4 !important;
 }
 
 a.text-info:hover, a.text-info:focus {
-  color: #6500a8 !important;
+  color: #613d97 !important;
 }
 
 .text-warning {
@@ -8864,11 +8906,11 @@ a.text-warning:hover, a.text-warning:focus {
 }
 
 .text-danger {
-  color: #dc3545 !important;
+  color: #C57A7F !important;
 }
 
 a.text-danger:hover, a.text-danger:focus {
-  color: #bd2130 !important;
+  color: #964f54 !important;
 }
 
 .text-light {
