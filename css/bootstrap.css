@@ -1777,6 +1777,12 @@ pre code {
   background-color: #E0675C;
 }
 
+.table-pinkish,
+.table-pinkish > th,
+.table-pinkish > td {
+  background-color: #E29276;
+}
+
 .table-slateish,
 .table-slateish > th,
 .table-slateish> td {
@@ -6103,7 +6109,7 @@ button.bg-primary:focus {
 }
 
 .bg-orangeish {
-  background-color: #E0675C !important;
+  background-color: #E29276 !important;
 }
 
 a.bg-orangeish:hover, a.bg-orangeish:focus,
