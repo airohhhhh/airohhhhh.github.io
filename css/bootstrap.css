@@ -1771,16 +1771,16 @@ pre code {
   background-color: #6FB2E2;
 }
 
+.table-orangeish,
+.table-orangeish > th,
+.table-orangeish > td {
+  background-color: #E0675C;
+}
+
 .table-slateish,
 .table-slateish > th,
 .table-slateish> td {
   background-color: #335699;
-}
-
-.table-mintish,
-.table-mintish > th,
-.table-mintish> td {
-  background-color: #AEF5F6;
 }
 
 .table-info,
@@ -8869,6 +8869,10 @@ a.text-success:hover, a.text-success:focus {
   color: #4ea4e2 !important;
 }
 
+.text-orangeish {
+  color: #E0675C !important;
+}
+
 a.text-blueish:hover, a.blueish:focus {
   color: #2d82be !important;
 }
@@ -8880,14 +8884,6 @@ a.text-blueish:hover, a.blueish:focus {
 a.text-slateish:hover, a.blueish:focus {
   color: #070d1a !important;
 } 
-
-.text-mintish {
-  color: #6bdab5   !important;
-}
-
-a.text-mintish:hover, a.blueish:focus {
-  color: #5eabad !important;
-}
 
 .text-info {
   color: #9163d4 !important;
