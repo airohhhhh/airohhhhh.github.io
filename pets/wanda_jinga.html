@@ -93,7 +93,7 @@
             </div>
         </nav>
         
-        <div   style="height: 6vh;"></div>
+        <div style="height: 6vh;"></div>
 
         <!-- Wanda/Jinga Text Container-->
 		<div class="container mt-5">
@@ -109,7 +109,7 @@
 				</div>
 		
                 <div class="col-sm-9 col-md-8 col-lg-5 col-10 my-auto">
-                    <img class="w-100 rounded" src="../images/pets/wanda_jinga/wanda_jinga.png" alt="Wanda & Jinga">
+                    <img class="w-100" src="../images/pets/wanda_jinga/wanda_jinga.png" alt="Wanda & Jinga">
                 </div>
 			</div>
         </div>
@@ -193,53 +193,147 @@
             </div> <!-- close card -->
         </div> <!-- close container -->
 
-        <!-- Personality Container-->
+        <!-- Personality & Candy Boxes Container --> 
         <div class="container mt-5">
-            <div class="card-deck">
-                <div class="row">
-                            <!-- Enjoys Sun / Sunny -->
-                        <div class="card border border-dark">
-                            <p class="card-header text-center">
-                                Enjoys Sun / <span class="text-info semibold">Sunny</span>
-                            </p>
-                                <div class="card-body">
-                                    <p class="card-text">Personality that increases Wanda or Jinga's damage by 12% when the weather is clear.</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-info semibold">Wanda and Jinga's preferred Personality on NA</small>
-                                </div>
-                        </div>
+            <div class="row">
+                <div class="col-12 mx-auto">
+                    <div class="card border-dark">
+                        <!-- headings -->
+                        <div class="card-header">
+                            <ul class="nav nav-tabs card-header-tabs justify-content-center" id="listjs" role="tablist">
+                                <li class="nav-item py-0 pr-0">
+                                    <a class="nav-link active text-dark" href="#personality" role="tab" aria-controls="personality" aria-selected="true">Personalities</a>
+                                </li>
+                                <li class="nav-item py-0 pr-0 pl-0">
+                                    <a class="nav-link text-orangeish"  href="#candyboxes" role="tab" aria-controls="candyboxes" aria-selected="false">Candy Boxes</a>
+                                </li>
+                            </ul>
 
-                            <!-- Fervent / Resolved -->
-                        <div class="card border border-dark">
-                            <p class="card-header text-center">
-                                Fervent / <span class="text-info semibold">Resolved</span>
-                            </p>
-                                <div class="card-body">
-                                    <p class="card-text">Wanda or Jinga gains a low chance to avoid fatal blows.<br><br>
-                                        
-                                        When a fatal blow is avoided this way, the pet becomes
-                                        invincible for a few seconds and gains 15% increased damage for 60 seconds.
-                                    </p>
-                                </div>
                         </div>
+                        <!-- text -->
+                        <div class="card-body">
 
-                            <!-- Powerful -->
-                        <div class="card border border-dark">
-                            <p class="card-header text-center">
-                                Powerful (14★)
-                                <span class="text-success"> [JP Only]</span>
-                            </p>
-                                <div class="card-body">
-                                    <p class="card-text">Wanda or Jinga gains the effects of Enjoys Sun and Fervent. Also, +5% RDR.</p>
-                                </div>
-                                <div class="card-footer">
-                                    <small class="text-success semibold">Wanda and Jinga's preferred Personality on JP</small>
+                                <div class="tab-content mt-3">
+
+                                         <!-- Personality -->
+                                    <div class="tab-pane active" id="personality" height="100%" role="tabpanel" aria-labelledby="personality-tab">
+
+                                        <div class="row">
+
+                                            <!-- Collumn 1, Sunny -->
+                                            <div class="col-lg-4 mx-auto py-3">
+                                                <p class="card-title">
+                                                    Enjoys Sun / <span class="text-info semibold">Sunny</span>
+                                                </p>
+
+                                                <p class="card-text">Personality that increases Wanda or Jinga's damage by 12% when the weather is clear.</p>
+                                                <small class="text-info semibold">Wanda and Jinga's preferred Personality on NA</small>
+                                                    
+                                            </div>
+
+                                            <!-- Collumn 2, Resolved -->
+                                            <div class="col-lg-4 mx-auto py-3">
+                                                <p class="card-title">
+                                                    Fervent / <span class="text-info semibold">Resolved</span>
+                                                </p>
+
+                                                <p class="card-text">Wanda or Jinga gains a low chance to avoid fatal blows.<br><br>
+                                                    
+                                                When a fatal blow is avoided this way, the pet becomes
+                                                invincible for a few seconds and gains 15% increased damage for 60 seconds.</p>
+
+                                            </div>
+
+                                            <!-- Collumn 3, Powerful -->
+                                            <div class="col-lg-4 mx-auto py-3">
+                                                <p class="card-title">
+                                                    Powerful (14★) <span class="text-success"> [JP Only]</span>
+                                                </p>
+                                                    
+                                                <p class="card-text">Wanda or Jinga gains the effects of Enjoys Sun and Fervent. Also, +5% RDR.</p>
+                                                <small class="text-success semibold">Wanda and Jinga's preferred Personality on JP</small>
+                                            </div>
+                                                    
+                                        </div>
+
+                                    </div>
+
+
+
+                                        <!-- Candy Types -->
+                                    <div class="tab-pane" id="candyboxes" height="100%" role="tabpanel" aria-labelledby="candyboxes-tab">
+
+                                        <!-- Row 1 (Pancakes) -->
+                                        <div class="row">
+
+                                            <!-- Collumn 1, Text -->
+                                            <div class="col-lg-6 mb-4 mx-auto my-auto">
+                                                <span class="card-title semibold text-orangeish">Steady Parfait Layout</span><br>
+                                                A candy box utilizing the high on-kill damage buffs of Steady Parfaits. Reaches 100% crit on SuPh with 205 PP or more.<br><br>
+                                                
+                                                <p class="card-text">
+                                                    
+                                                    <span class="highlight">Substitutions</span><br>
+                                                    <span class="semibold">Super Steady Parfait</span> can be used as a more expensive, upgraded version of Steady Parfait.<br><br>
+                                                    <span class="semibold">Steadfast Roll and Last Minute Roll</span> can be used inplace of Support Rolls if you have high crit rate through 
+                                                    other means (S6: Wise Skill, a higher PP Pool), or if your pet is too squishy.<br><br>
+                                                    <span class="semibold">Tech Spi Cookies</span> are a seasonal cookie that provides you with both T-ATK and PP. Use that if you've got it.<br><br>
+
+
+                                            </div>
+
+                                            <!-- Collumn 2, Supporting Image -->
+                                           
+                                            <div class="col-lg-4 col-md-10 col-sm-10 col-10 my-auto center">
+                                                <img src="../images/pets/wanda_jinga/steadybox.png" class="rounded my-2 w-100" alt="Steady Parfait Candy Box"><br><br>
+                                                <span class="semibold">Pancakes:</span> 2 Layer Pancake, 3 Layer Pancake<br>
+                                                    <span class="semibold">Parfaits:</span> Steady, Exquisite Steady<br>
+                                                    <span class="semibold">Rolls:</span> 2x Support Roll<br>
+                                                    <span class="semibold">Cookies:</span> 3x Tech Cookie<br>
+                                                    <span class="semibold">Sticks:</span> 2x Critical Stick, 1x Vin-Spi Stick<br>
+                                                    <span class="semibold">Sandwiches:</span> 1x Body Sandwich<br>
+                                                    <span class="semibold">Gummies:</span> 4x Stamina Gummy<br><br>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="space" style="height: 2vh;"></div>
+
+                                        <!-- Row 2 (Parfaits) -->
+                                        <div class="row">
+
+                                            <!-- Collumn 1, Text -->
+                                            <div class="col-lg-6 mb-4 mx-auto">
+                                                <p class="card-title semibold text-slateish">Parfaits</p>
+                                                <p class="card-text">
+                                                    These typically provide large damage boosts to your pets. All candy boxes should include two parfaits.
+                                                    <span class="font-italic">Parfaits are 2x2 when fully compressed.</span><br>
+
+                                            </div>
+
+                                            <!-- Collumn 2, Supporting Image -->
+                                           
+                                            <div class="col-lg-5 col-md-10 col-sm-10 col-10 my-auto center">
+                                                <img src="images/pets_candy/parfait.png" class="rounded my-2 mr-4" height="95" alt="Parfait"> 
+                                                <img src="images/pets_candy/parfait_exq.png" class="rounded my-2" height="95" alt="Exquisite Parfait"><br>
+                                            </div>
+
+                                        </div>
+
+                                        <div class="space" style="height: 2vh;"></div>
+
+                                    
+
+
+                                    </div>
+    
                                 </div>
                         </div>
-                    
-                </div>  
-            </div>
+                    </div> <!-- close container -->
+                        
+                
+            </div> <!-- close col -->
+            </div> <!-- close row -->
         </div> <!-- close container -->
         
                 <!-- bg image // FIXED BACKGROUND IMAGE, hidden on xs and sm screens -->
