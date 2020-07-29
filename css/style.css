@@ -4,12 +4,13 @@ body, p{
 }
 
 body {
-	background-color: #f3f3f3;
+	background-color: #F0EEEE;
 }
 
-.navbar {
-	min-height: 10%;
+.cardbody {
+	background-color: #DFDFDF;
 }
+
 
 .navbar-toggler:active, .navbar-toggler:focus {
 		outline: none !important;

@@ -1677,7 +1677,7 @@ pre code {
 .table td {
   padding: 0.75rem;
   vertical-align: top;
-  border-top: 1px solid #dee2e6;
+  border-top: 1px solid #636363;
 }
 
 .table thead th {
@@ -1686,7 +1686,7 @@ pre code {
 }
 
 .table tbody + tbody {
-  border-top: 2px solid #dee2e6;
+  border-top: 2px solid #dee6de;
 }
 
 .table .table {
@@ -1704,7 +1704,7 @@ pre code {
 
 .table-bordered th,
 .table-bordered td {
-  border: 1px solid #dee2e6;
+  border: 1px solid #dee6de;
 }
 
 .table-bordered thead th,
@@ -1888,7 +1888,7 @@ pre code {
 .table .thead-light th {
   color: #495057;
   background-color: #e9ecef;
-  border-color: #dee2e6;
+  border-color: #dee6df;
 }
 
 .table-dark {
@@ -3913,8 +3913,8 @@ tbody.collapse.show {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #fff;
-  border-color: #dee2e6 #dee2e6 #fff;
+  background-color: #DFDFDF;
+  border-color: #C3C3C3;
 }
 
 .nav-tabs .dropdown-menu {
