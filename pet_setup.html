@@ -35,8 +35,8 @@
                     <div class="collapse navbar-collapse" id="navbarTop">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav-item"><a href="index.html" class="nav-link">Intro</a></li>
-                            <li class="nav-item"><a href="skilltree_subclass_npcs.html" class="nav-link">Skill Tree, Subclass, NPCs</a></li>
-                            <li class="nav-item"><a href="#" class="nav-link active">Pet Setup, Candy, Crits</a></li>
+                            <li class="nav-item"><a href="class_setup.html" class="nav-link">Class Setup</a></li>
+                            <li class="nav-item"><a href="#" class="nav-link active">Pet Setup</a></li>
                             <li class="nav-item"><a href="pets/wanda_jinga.html" class="nav-link">Pets</a></li>
                             <li class="nav-item"><a href="equipment.html" class="nav-link">Equipment</a></li>
                             <li class="nav-item"><a href="credits.html" class="nav-link">FAQ & Credits</a></li>
@@ -72,7 +72,7 @@
         border-top border-bottom border-dark w-100" style="background-color: #b04a7c">
             <div class="div container">
 
-                <a href="#" class="navbar-brand">Pet Setup & Candy</a>
+                <a href="#" class="navbar-brand">Pet Setup</a>
                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarBottom">
                     <span class="navbar-toggler-icon"></span>
@@ -80,7 +80,7 @@
 
                 <div class="collapse navbar-collapse" id="navbarBottom">
                     <ul class="navbar-nav ml-auto">
-                        <li class="nav-item"><a href="#petsetup" class="nav-link">Pet Setup</a></li>
+                        <li class="nav-item"><a href="#petdetails" class="nav-link">Pet Details</a></li>
                         <li class="nav-item"><a href="#candyboxes" class="nav-link">Candy Boxes & Candy Types</a></li>
                         <li class="nav-item"><a href="#candyreco" class="nav-link">Recommended Candy</a></li>
                         <li class="nav-item"><a href="#critbuild" class="nav-link">Critical Hit Rate</a></li>
@@ -94,8 +94,8 @@
         <!-- Pet Setup Text Container-->
 		<div class="container mt-5">
 			<div class="row justify-content-center">
-				<div class="col-lg-4 mb-4 my-auto" id="petsetup">
-					<h3 class="boldtitlelarge">Pet Setup</h3>
+				<div class="col-lg-4 mb-4 my-auto" id="petdetails">
+					<h3 class="boldtitlelarge">Pet Details</h3>
 					<div class="my-3"></div>
 
                         Pets have four main details to them - their Rarity, Attribute,
@@ -113,26 +113,24 @@
         <!-- Pet Setup Container-->
         <div class="container mt-5"> <!-- close container -->
 
-            <div class="card border-dark">
+             <!-- header -->
+             <ul class="nav nav-tabs card-header-tabs justify-content-center mb-1 mt-3" id="listjs" role="tablist">
+                <li class="nav-item py-0 pr-0">
+                    <a class="nav-link active text-success" href="#rarity" role="tab" aria-controls="rarity" aria-selected="true">★ Rarity</a>
+                </li>
 
-                <!-- header -->
-                <div class="card-header">
-                    <ul class="nav nav-tabs card-header-tabs justify-content-center" id="listjs" role="tablist">
-                        <li class="nav-item py-0 pr-0">
-                            <a class="nav-link active text-success" href="#rarity" role="tab" aria-controls="rarity" aria-selected="true">★ Rarity</a>
-                        </li>
+                <li class="nav-item py-0 pr-0 pl-0">
+                    <a class="nav-link text-blueish"  href="#attribute" role="tab" aria-controls="attribute" aria-selected="false">Attribute & Personality</a>
+                </li>
 
-                        <li class="nav-item py-0 pr-0 pl-0">
-                            <a class="nav-link text-blueish"  href="#attribute" role="tab" aria-controls="attribute" aria-selected="false">Attribute & Personality</a>
-                        </li>
+                <li class="nav-item py-0 pl-0">
+                    <a class="nav-link text-slateish" href="#petplusstats" role="tab" aria-controls="petplusstats" aria-selected="false">Pet Plus Stats</a>
+                </li>
+            </ul>
 
-                        <li class="nav-item py-0 pl-0">
-                            <a class="nav-link text-slateish" href="#petplusstats" role="tab" aria-controls="petplusstats" aria-selected="false">Pet Plus Stats</a>
-                        </li>
-                    </ul>
+            <div class="card cardbody">
 
-                </div>
-
+               
                 <!-- body -->
                 <div class="card-body">
                     <div class="tab-content mt-3">
@@ -186,13 +184,12 @@
                                                 <td>120</td>
                                             </tr>
                                             <tr>
-                                                <td class="semibold table-info" scope="row">14★</td>
-                                                <td class="table-info">130</td>
+                                                <td class="semibold" scope="row">14★</td>
+                                                <td>130</td>
                                             </tr>
                                             </tbody>
                                         </table>
 
-                                     <span class="text-info semibold center pb-4">14★ Pets are not currently available on NA.</span>
                                     
                                 </div>
 
@@ -200,7 +197,7 @@
                                 
                                 <div class="col-lg-5 col-md-10 col-sm-10 col-10 mx-auto yeah">
                                     <br>
-                                    <p class="card-title semibold text-success">Obtaining Eggs on JP</p>
+                                    <p class="card-title semibold text-success">Obtaining Eggs</p>
                                     <p class="card-text">
                                         Eggs up to 9★ can be found through the player shop to give you a decent starting point.<br><br>
 
@@ -210,19 +207,6 @@
                                         </div><br>
 
                                         Finally, 14★ eggs can be found as drops in Extra Hard and Ultra Hard content.<br><br><br>
-                                    
-
-                                    <p class="card-title semibold text-info">Obtaining Eggs on NA</p>
-                                    <p class="card-text">
-                                        Same as on JP, you can buy eggs off the player shop up to 9★.<br><br>
-
-                                        Additionally, you can acquire eggs through the Beginner's Collection File.
-                                        <div class=" mx-auto col-sm-9 col-md-8 col-lg-11 col-10">
-                                            <img class="w-100 rounded" src="images/pets_candy/pet_8-10_CF_cutoff.png" alt="NA Beginner Collection File">
-                                        </div><br>
-
-                                        13★ eggs can then be obtained as drops in Super Hard and Extra Hard content such as Urgent Quests, Ultimate Quests, and Triggers.<br><br><br>
- 
 
                                     <p class="card-title highlight">Leveling Your Pets</p>
                                     <p class="card-text">
@@ -451,19 +435,20 @@
         <div class="container mt-5">
             <div class="row">
                 <div class="col-12 mx-auto">
-                    <div class="card border-dark">
+                    
                         <!-- headings -->
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs justify-content-center" id="listjs" role="tablist">
-                                <li class="nav-item py-0 pr-0">
-                                    <a class="nav-link active text-blueish" href="#candybox" role="tab" aria-controls="skillpoints" aria-selected="true">Candy Boxes</a>
-                                </li>
-                                <li class="nav-item py-0 pr-0 pl-0">
-                                    <a class="nav-link text-slateish"  href="#candy" role="tab" aria-controls="candy" aria-selected="false">Candy Types</a>
-                                </li>
-                            </ul>
+                        <ul class="nav nav-tabs card-header-tabs justify-content-center mb-1 mt-3" id="listjs" role="tablist">
+                            <li class="nav-item py-0 pr-0">
+                                <a class="nav-link active text-blueish" href="#candybox" role="tab" aria-controls="skillpoints" aria-selected="true">Candy Boxes</a>
+                            </li>
+                            <li class="nav-item py-0 pr-0 pl-0">
+                                <a class="nav-link text-slateish"  href="#candy" role="tab" aria-controls="candy" aria-selected="false">Candy Types</a>
+                            </li>
+                        </ul>
 
-                        </div>
+                    <div class="card cardbody">
+
+
                         <!-- text -->
                         <div class="card-body">
 
@@ -843,30 +828,26 @@
             <div class="row">
 
                 <div class="col-12 mx-auto">
+
+                    <!-- headings -->
+                    <ul class="nav nav-tabs card-header-tabs justify-content-center mb-1 mt-3" id="listjs" role="tablist">
+                        <li class="nav-item py-0 pr-0">
+                            <a class="nav-link active text-success" href="#pancakes" role="tab" aria-controls="pancakes" aria-selected="true">Pancakes</a>
+                        </li>
+                        <li class="nav-item py-0 pr-0 pl-0">
+                            <a class="nav-link text-blueish"  href="#parfaits" role="tab" aria-controls="parfaits" aria-selected="false">Parfaits</a>
+                        </li>
+                        <li class="nav-item py-0 pr-0 pl-0">
+                            <a class="nav-link text-slateish"  href="#rolls" role="tab" aria-controls="rolls" aria-selected="false">Rolls</a>
+                        </li>
+                        <li class="nav-item py-0 pr-0 pl-0">
+                            <a class="nav-link text-dark"  href="#other" role="tab" aria-controls="other" aria-selected="false">Other</a>
+                        </li>
+                    </ul>
                     
-                    <div class="card border-dark">
+                    <div class="card cardbody">
 
-                        <!-- headings -->
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs justify-content-center" id="listjs" role="tablist">
-                                <li class="nav-item py-0 pr-0">
-                                    <a class="nav-link active text-success" href="#pancakes" role="tab" aria-controls="pancakes" aria-selected="true">Pancakes</a>
-                                </li>
-                                <li class="nav-item py-0 pr-0 pl-0">
-                                    <a class="nav-link text-blueish"  href="#parfaits" role="tab" aria-controls="parfaits" aria-selected="false">Parfaits</a>
-                                </li>
-                                <li class="nav-item py-0 pr-0 pl-0">
-                                    <a class="nav-link text-slateish"  href="#rolls" role="tab" aria-controls="rolls" aria-selected="false">Rolls</a>
-                                </li>
-                                <li class="nav-item py-0 pr-0 pl-0">
-                                    <a class="nav-link text-dark"  href="#other" role="tab" aria-controls="other" aria-selected="false">Other</a>
-                                </li>
-                                <li class="nav-item py-0 pr-0 pl-0">
-                                    <a class="nav-link text-info"  href="#nareccs" role="tab" aria-controls="nareccs" aria-selected="false">NA Recommendations</a>
-                                </li>
-                            </ul>
-
-                        </div>
+                        
 
                         <!-- text -->
                         <div class="card-body">
@@ -881,7 +862,7 @@
 
                                             <!-- Collumn 1, Text -->
                                             <div class="col-lg-6 mx-auto">
-                                                <p class="card-title font-weight-bold">Two Layer Pancake/<span class="text-info">Double Stack Pancake</span></p>
+                                                <p class="card-title font-weight-bold">Two Layer Pancake</p>
                                                 <p class="card-text">
                                                    <span class="text-success semibold">Increases your pet's attribute by 20.</span>
                                                    Include one of these in each of your candy boxes to help get your pets to their cap of 60 attribute. Obtained through Ariel's Pet Goods Shop.
@@ -890,7 +871,7 @@
 
                                             <!-- Collumn 2, Supporting Image -->
                                             <div class="col-lg-5 col-md-10 col-sm-10 col-10 my-auto center">
-                                                <img src="images/pets_candy/two_layer_pancake.png" class="rounded my-2 mr-4" height="91" alt="Two Layer Pancake. NA: Double Stack Pancake"><br>
+                                                <img src="images/pets_candy/two_layer_pancake.png" class="rounded my-2 mr-4" height="91" alt="Two Layer Pancake"><br>
                                             </div>
 
                                         </div>
@@ -902,7 +883,7 @@
 
                                             <!-- Collumn 1, Text -->
                                             <div class="col-lg-6 mx-auto">
-                                                <p class="card-title font-weight-bold">Three Layer Pancake/<span class="text-info">Triple Stack Pancake</span></p>
+                                                <p class="card-title font-weight-bold">Three Layer Pancake</p>
                                                 <p class="card-text">
                                                    <span class="text-success semibold">Increases your pet's attribute by 30.</span>
                                                    Same idea as Two Layer Pancake - there's no reason to skip this in any of your candy boxes. Also obtained through Ariel.
@@ -911,7 +892,7 @@
 
                                             <!-- Collumn 2, Supporting Image -->
                                             <div class="col-lg-5 col-md-10 col-sm-10 col-10 my-auto center">
-                                                <img src="images/pets_candy/three_layer_pancake.png" class="rounded my-2 mr-4" height="91" alt="Two Layer Pancake. NA: Double Stack Pancake"><br>
+                                                <img src="images/pets_candy/three_layer_pancake.png" class="rounded my-2 mr-4" height="91" alt="Three Layer Pancake"><br>
                                             </div>
 
                                         </div>
@@ -934,7 +915,8 @@
                                                 <p class="card-text">
                                                    <span class="text-blueish semibold">Increases your pet's critical hit damage by 10%, and grants the following bonuses 
                                                        upon activating Shifta Sympathy: 1% ATK, 10% critical hit rate, 20% DEF. Shifta Sympathy bonuses last 60s.</span>
-                                                   A great parfait on a wide variety of pets for it's solid damage and good utility.
+                                                   A great parfait on a wide variety of pets for it's solid damage, good utility, and it's also
+                                                   one of the only Parfaits the increases your pet's survivability! This is never a bad choice for your bossing pets.
                                                     
                                             </div>
 
@@ -964,33 +946,6 @@
                                         fill text for candies other than pancakes/parfiats/rolls
 
                                     </div>
-
-                                        <!-- NA -->
-                                    <div class="tab-pane" id="nareccs" height="100%" role="tabpanel" aria-labelledby="nareccs-tab">
-
-                                       <div class="row">
-
-                                            <!-- NA Recommendations -->
-                                            <div class="col-lg-8 mx-auto">
-                                                <p class="card-text">
-                                                    Summoner is in a weird spot on NA right now. Despite being released in Episode 4 on the Japanese version, the North American release
-                                                    includes Summoner a full episode early in Episode 3.
-
-                                                    As a result, a lot of the systems for obtaining Sweets don't exist yet on NA, and ways to drop Sweets are a bit limited.<br><br>
-
-                                                    So rather than do a writeup on the state of NA's Sweets, which I'm unfamilliar with as someone who exclusively plays JP, I'll instead link you to <span class="semibold">Zer0#7879's 
-                                                    </span><a href="https://bit.ly/2Nc4kLB" target="_blank" class="text-info semibold">NA Summoner Info</a> Sheet
-                                                    so you can get Sweets recommendations from a great Summoner who actually plays NA!<br><br>
-                                                    The <span class="highlight">"Rolls & Parfaits"</span> tab covers recommended Sweets, where they can be farmed from, and even recommended setups for each pet.
-                                                    The other tabs are also quite valuable as well!<br><br>
-                                                    
-
-                                                    A complete list of NA's available Sweets can also be found on the
-                                                    <a target="_blank" href="https://pso2na.arks-visiphone.com/wiki/Sweets" class="text-info semibold">NA Arks Visiphone's Sweets List</a>.<br><br>
-                                            </div>
-
-                                        </div>
-                                    </div>
     
                                 </div>
                         </div>
@@ -1012,10 +967,8 @@
                     <div class="border-top-top border-top-dark my-3"></div>
                     An important part of Su/Ph is making sure you reach 100% critical hit rate.<br><br>
                     
-                    The reason for this is that pets feature much higher damage variance than other classes' weapon's do, so having high crit rate
-                    allows us to avoid losing out on damage.<br><br>
-                    <span class="text-info semibold">If you’re playing on the NA servers, you can skip this part. 
-                        NA lacks the candy and gear needed to cap out on critical hit rate.</span>
+                    Pets feature much higher damage variance than other classes' weapon's do, so Summoner
+                    needs to focus on high critical hit rate to avoid losing damage.<br>
                 </div>
 
             </div>
@@ -1027,20 +980,9 @@
 
                 <div class="col-12 mx-auto">
                     
-                    <div class="card border-dark">
+                    <div class="card cardbody">
 
-                        <!-- headings -->
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs justify-content-center" id="listjs" role="tablist">
-                                <li class="nav-item py-0 pr-0">
-                                    <a class="nav-link active text-danger" href="#hundredpercent" role="tab" aria-controls="pancakes" aria-selected="true">Reaching 100% Crit</a>
-                                </li>
-                                <li class="nav-item py-0 pr-0 pl-0">
-                                    <a class="nav-link text-blueish"  href="#critupgrades" role="tab" aria-controls="parfaits" aria-selected="false">Crit Upgrades</a>
-                                </li>
-                            </ul>
-
-                        </div>
+                        
 
                         <!-- text -->
                         <div class="card-body">
@@ -1060,26 +1002,13 @@
                                             <span class="semibold text-danger">20% more critical hit rate</span> can be gained through the right ring R/C Strike Tech, which puts you at 66%.
                                             Finally, you can reach 100% critical hit rate using two Support Rolls 
                                             <span class="semibold text-danger">(10% critical hit rate each)</span> and two Critical Candy Sticks
-                                            <span class="semibold text-danger">(7% critical hit rate each)</span><br><br>
+                                            <span class="semibold text-danger">(7% critical hit rate each)</span>.<br><br>
+
+                                            Over time, you can cut Support Rolls and Critical Candy Sticks by 
+                                            gaining higher max PP through other means such as higher PP, Takts that grant critical hit rate, and S6: Wise Skill (+15% critical hit rate.)
                                        
                                     </div>
 
-                                        <!-- Parfaits -->
-                                    <div class="tab-pane" id="critupgrades" height="100%" role="tabpanel" aria-labelledby="critupgrades-tab">
-
-                                        <p class="card-text">
-                                            To start with, your character has a base <span class="semibold text-danger">5% critical hit rate.</span>
-    
-                                            Assuming you have 205 PPASD, you would also gain <span class="semibold text-danger">41% critical hit rate </span>
-                                            through the Phantom Skill Critical Stream <span class="semibold font-italic">(205 x 0.2)</span>
-                                            , putting you at 46% critical hit rate.<br><br>
-    
-                                            <span class="semibold text-danger">20% more critical hit rate</span> can be gained through the right ring R/C Strike Tech, which puts you at 66%.
-                                            Finally, you can reach 100% critical hit rate using two Support Rolls 
-                                            <span class="semibold text-danger">(10% critical hit rate each)</span> and two Critical Candy Sticks
-                                            <span class="semibold text-danger">(7% critical hit rate each)</span><br><br>
-
-                                    </div>
 
     
                                 </div>

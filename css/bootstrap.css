@@ -3913,7 +3913,7 @@ tbody.collapse.show {
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
-  background-color: #DFDFDF;
+  background-color: #e0e0e0;
   border-color: #C3C3C3;
 }
 
