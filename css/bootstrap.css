@@ -8895,6 +8895,11 @@ a.text-success:hover, a.text-success:focus {
   color: #E0675C !important;
 }
 
+a.text-orangeish:hover, a.orangeish:focus {
+  color: #ca584e !important;
+}
+
+
 a.text-blueish:hover, a.blueish:focus {
   color: #2d82be !important;
 }
