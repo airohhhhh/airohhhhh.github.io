@@ -49,18 +49,9 @@
 		<div id="carousel" class="carousel slide border border-dark w-100" data-ride="carousel" data-interval="6500">
 			<div class="carousel-inner">
 
-				<div class="carousel-item">
-					<img src="../images/index/s_redran_header.png" class="w-100" alt="">
-				</div>
-
-				<div class="carousel-item">
-					<img src="../images/index/s_maron_header.jpg" class="w-100" alt="">
-				</div>
-
 				<div class="carousel-item active">
-					<img src="../images/index/s_torim_header.png" class="w-100" alt="">
-				</div>
-
+					<img src="../images/pets/wanda_jinga/s_jinga_header.png" class="w-100 active" alt="">
+                </div>
 
 			</div>
         </div>
@@ -209,145 +200,192 @@
             </div> <!-- close row -->
         </div> <!-- close container -->
             
+        <div style="height: 6vh;"></div>
 
-        <!-- Personality & Candy Boxes Container --> 
-        <div class="container mt-5">
-            <div class="row">
-                <div class="col-12 mx-auto">
-                    <div class="card border-dark">
-                        <!-- headings -->
-                        <div class="card-header">
-                            <ul class="nav nav-tabs card-header-tabs justify-content-center" id="listjs" role="tablist">
-                                <li class="nav-item py-0 pr-0">
-                                    <a class="nav-link active text-dark" href="#personality" role="tab" aria-controls="personality" aria-selected="true">Personalities</a>
-                                </li>
-                                <li class="nav-item py-0 pr-0 pl-0">
-                                    <a class="nav-link text-orangeish"  href="#candyboxes" role="tab" aria-controls="candyboxes" aria-selected="false">Candy Boxes</a>
-                                </li>
-                            </ul>
+        <!-- Personality and Candy Boxes Container-->
+        <div class="container mt-5"> <!-- close container -->
 
-                        </div>
-                        <!-- text -->
-                        <div class="card-body">
+            <!-- header -->
+            <ul class="nav nav-tabs card-header-tabs justify-content-center mb-1 mt-3" id="listjs" role="tablist">
+               <li class="nav-item py-0 pr-0">
+                   <a class="nav-link active text-orangeish" href="#personalities" role="tab" aria-controls="personalities" aria-selected="true">Personalities</a>
+               </li>
 
-                                <div class="tab-content mt-3">
+               <li class="nav-item py-0 pr-0 pl-0">
+                   <a class="nav-link text-blueish"  href="#steadyparfait" role="tab" aria-controls="steadyparfait" aria-selected="false">Steady Parfait Candy Box</a>
+               </li>
 
-                                         <!-- Personality -->
-                                    <div class="tab-pane active" id="personality" height="100%" role="tabpanel" aria-labelledby="personality-tab">
+               <li class="nav-item py-0 pl-0">
+                   <a class="nav-link text-slateish" href="#alternate" role="tab" aria-controls="alternate" aria-selected="false">Alternate Candy Box</a>
+               </li>
+           </ul>
 
-                                        <div class="row">
+           <div class="card cardbody">
 
-                                            <!-- Collumn 1, Sunny -->
-                                            <div class="col-lg-4 mx-auto py-3">
-                                                <p class="card-title">
-                                                    Enjoys Sun / <span class="text-info semibold">Sunny</span>
-                                                </p>
+              
+               <!-- body -->
+               <div class="card-body">
+                   <div class="tab-content mt-3">
 
-                                                <p class="card-text">Personality that increases Wanda or Jinga's damage by 12% when the weather is clear.</p>
-                                                <small class="text-info semibold">Wanda and Jinga's preferred Personality on NA</small>
-                                                    
-                                            </div>
+                           <!-- Personalities -->
+                        <div class="tab-pane active" id="personalities" height="100%" role="tabpanel" aria-labelledby="personalities-tab">
+                            <div class="row">
 
-                                            <!-- Collumn 2, Resolved -->
-                                            <div class="col-lg-4 mx-auto py-3">
-                                                <p class="card-title">
-                                                    Fervent / <span class="text-info semibold">Resolved</span>
-                                                </p>
-
-                                                <p class="card-text">Wanda or Jinga gains a low chance to avoid fatal blows.<br><br>
-                                                    
-                                                When a fatal blow is avoided this way, the pet becomes
-                                                invincible for a few seconds and gains 15% increased damage for 60 seconds.</p>
-
-                                            </div>
-
-                                            <!-- Collumn 3, Powerful -->
-                                            <div class="col-lg-4 mx-auto py-3">
-                                                <p class="card-title">
-                                                    Powerful (14★) <span class="text-success"> [JP Only]</span>
-                                                </p>
-                                                    
-                                                <p class="card-text">Wanda or Jinga gains the effects of Enjoys Sun and Fervent. Also, +5% RDR.</p>
-                                                <small class="text-success semibold">Wanda and Jinga's preferred Personality on JP</small>
-                                            </div>
-                                                    
-                                        </div>
-
-                                    </div>
-
-
-
-                                        <!-- Candy Types -->
-                                    <div class="tab-pane" id="candyboxes" height="100%" role="tabpanel" aria-labelledby="candyboxes-tab">
-
-                                        <!-- Row 1 (Steady) -->
-                                        <div class="row">
-
-                                            <!-- Collumn 1, Text -->
-                                            <div class="col-lg-6 mb-4 mx-auto my-auto">
-                                                <span class="card-title semibold text-orangeish">Steady Parfait Layout</span><br>
-                                                A candy box utilizing the high on-kill damage buffs of Steady Parfaits. Reaches 100% crit on SuPh with 205 PP or more.<br><br>
-                                                
-                                                <span class="semibold">Pancakes:</span> Two Layer Pancake, Three Layer Pancake<br>
-                                                    <span class="semibold">Parfaits:</span> Steady Parfait, Exquisite Steady Parfait<br>
-                                                    <span class="semibold">Rolls:</span> 2x Support Roll<br>
-                                                    <span class="semibold">Cookies:</span> 3x Tech Cookie<br>
-                                                    <span class="semibold">Sticks:</span> 2x Critical Stick, 1x Vin-Spi Stick<br>
-                                                    <span class="semibold">Sandwiches:</span> 1x Body Sandwich<br>
-                                                    <span class="semibold">Gummies:</span> 4x Stamina Gummy<br><br>
-                                                <p class="card-text">
-                                                    
-
-                                            </div>
-
-                                            <!-- Collumn 2, Supporting Image -->
-                                           
-                                            <div class="col-lg-4 col-md-10 col-sm-10 col-10 my-auto center">
-                                                <img src="../images/pets/wanda_jinga/steadybox.png" class="rounded my-2 w-100" alt="Steady Parfait Candy Box"><br><br>
-                                            </div>
-
-                                        </div>
-
-                                        <div style="height: 6vh;"></div>
-
-                                        <!-- Row 1 (Non-Steady) -->
-                                        <div class="row">
-
-                                            <!-- Collumn 1, Text -->
-                                            <div class="col-lg-6 mb-4 mx-auto my-auto">
-                                                <span class="card-title semibold text-orangeish">Alternate Layout</span><br>
-                                                A box for use in content where you can't efficiently get kills for Steady Parfaits.<br><br>
-                                                
-                                                <span class="semibold">Pancakes:</span> 1x Two Layer Pancake, 1x Three Layer Pancake<br>
-                                                    <span class="semibold">Parfaits:</span> Exquisite Deadly Parfait, Super Vigilant Parfait<br>
-                                                    <span class="semibold">Rolls:</span> 1x Steadfast Roll, 1x Support Roll<br>
-                                                    <span class="semibold">Cookies:</span> 3x Tech Cookie<br>
-                                                    <span class="semibold">Sticks:</span> 2x Critical Stick, 1x Vin-Spi Stick<br>
-                                                    <span class="semibold">Sandwiches:</span> 1x Body Sandwich<br>
-                                                    <span class="semibold">Gummies:</span> 4x Stamina Gummy<br><br>
-                                                <p class="card-text">
-
-                                            </div>
-
-                                            <!-- Collumn 2, Supporting Image -->
-                                           
-                                            <div class="col-lg-4 col-md-10 col-sm-10 col-10 my-auto center">
-                                                <img src="../images/pets/wanda_jinga/altbox.png" class="rounded my-2 w-100" alt="Alternate Candy Box"><br><br>
-                                            </div>
-
-                                        </div>
-
-                                    </div>
-    
+                                <!-- Collumn 1, Sunny -->
+                                <div class="col-lg-4 mx-auto py-3">
+                                    <p class="card-title font-weight-bold text-orangeish">Enjoys Sun</p>
+                                    <p class="card-text">Personality that increases Wanda or Jinga's damage by 12% when the weather is clear.</p>
+                                    
+                                    <small class="text-orangeish semibold">Wanda and Jinga's preferred base personality.</small>
+                                        
                                 </div>
+
+                                <!-- Collumn 2, Resolved -->
+                                <div class="col-lg-4 mx-auto py-3">
+                                    <p class="card-title font-weight-bold">Fervent</p>
+
+                                    <p class="card-text">Wanda or Jinga gains a low chance to avoid fatal blows.<br><br>
+                                        
+                                    When a fatal blow is avoided this way, the pet becomes
+                                    invincible for a few seconds and gains 15% increased damage for 60 seconds.</p>
+
+                                </div>
+
+                                <!-- Collumn 3, Powerful -->
+                                <div class="col-lg-4 mx-auto py-3">
+                                    <p class="card-title font-weight-bold text-success">Powerful (14★)</p>
+                                        
+                                    <p class="card-text">Wanda or Jinga gains the effects of Enjoys Sun and Fervent. Also, +5% RDR.</p>
+                                    
+                                    <small class="text-success semibold">Wanda and Jinga's finalized personality.</small>
+                                </div>
+                                    
+                            </div>
                         </div>
-                    </div> <!-- close container -->
-                        
-                
-            </div> <!-- close col -->
-            </div> <!-- close row -->
-        </div> <!-- close container -->
-        
+
+                           <!-- Steady Parfait Candy Box -->
+                        <div class="tab-pane col-11 mx-auto" id="steadyparfait" role="tabpanel" aria-labelledby="steadyparfait-tab">
+
+                           <!-- Row 1 (Steady) -->
+                                <div class="row">
+
+                                    <!-- Collumn 1, Text -->
+                                    <div class="col-lg-6 mb-4 mx-auto my-auto">
+                                        <span class="card-title semibold text-blueish">Steady Parfait Layout</span><br>
+                                        A candy box utilizing the high on-kill damage buffs of Steady Parfaits. Reaches 100% crit on Su/Ph with 205 PP or more.<br><br>
+                                        
+                                        <span class="semibold">Pancakes:</span> Two Layer Pancake, Three Layer Pancake<br>
+                                            <span class="semibold">Parfaits:</span> Super Steady Parfait, Exquisite Steady Parfait<br>
+                                            <span class="semibold">Rolls:</span> 2x Support Roll<br>
+                                            <span class="semibold">Cookies:</span> 3x Tech Cookie<br>
+                                            <span class="semibold">Sticks:</span> 2x Critical Stick, 1x Vin-Spi Stick<br>
+                                            <span class="semibold">Sandwiches:</span> 1x Body Sandwich<br>
+                                            <span class="semibold">Gummies:</span> 4x Stamina Gummy<br><br>
+                                        <p class="card-text">
+                                            
+
+                                    </div>
+
+                                    <!-- Collumn 2, Supporting Image -->
+                                
+                                    <div class="col-lg-4 col-md-10 col-sm-10 col-10 my-auto center">
+                                        <img src="../images/pets/wanda_jinga/steadybox.png" class="rounded my-2 w-100" alt="Steady Parfait Candy Box"><br><br>
+                                    </div>
+                                </div>
+
+                            <!-- Row 2 (Upgraded Steady) -->
+                                <div class="row">
+
+                                    <!-- Collumn 1, Text -->
+                                        <div class="col-lg-6 mb-4 mx-auto my-auto">
+                                            <span class="card-title semibold text-blueish">Upgraded Steady Parfait Layout</span><br>
+                                            Upgraded layout that cuts Critical Sticks, Support Rolls, and Tech Cookies for more powerful options. 
+                                            Requires 265 PP or more to reach 100% crit.<br><br>
+                                            
+                                            <span class="semibold">Pancakes:</span> Two Layer Pancake, Three Layer Pancake<br>
+                                                <span class="semibold">Parfaits:</span> Super Steady Parfait, Exquisite Steady Parfait<br>
+                                                <span class="semibold">Rolls:</span> Steadfast Roll, Fluffy Roll<br>
+                                                <span class="semibold">Cookies:</span> 3x Tech-Spi Cookie<br>
+                                                <span class="semibold">Sticks:</span> 1x Critical Stick, 2x Vin-Spi Stick<br>
+                                                <span class="semibold">Gummies:</span> 5x Stamina Gummy<br><br>
+                                            <p class="card-text">
+
+                                        </div>
+
+                                    <!-- Collumn 2, Supporting Image -->
+                                
+                                    <div class="col-lg-4 col-md-10 col-sm-10 col-10 my-auto center">
+                                        <img src="../images/pets/wanda_jinga/steadybox_upgraded.png" class="rounded my-2 w-100" alt="Upgraded Steady Parfait Candy Box"><br><br>
+                                    </div>
+
+                                </div>
+
+                        </div>
+
+                           <!-- Alternate Candy Box -->
+                        <div class="tab-pane col-11 mx-auto" id="alternate" role="tabpanel" aria-labelledby="alternate-tab">
+                           
+                            <!-- Row 1 (Alternate Layout) -->
+                                <div class="row">
+
+                                <!-- Collumn 1, Text -->
+                                    <div class="col-lg-6 mb-4 mx-auto my-auto">
+                                        <span class="card-title semibold text-slateish">Alternate Layout</span><br>
+                                        A candy box for use in quests where you can't secure kills for Steady Parfaits. Reaches 100% crit on Su/Ph with 205 PP or more.<br><br>
+                                        
+                                        <span class="semibold">Pancakes:</span> Two Layer Pancake, Three Layer Pancake<br>
+                                            <span class="semibold">Parfaits:</span> Super Vigilant Parfait, Exquisite Deadly Parfait<br>
+                                            <span class="semibold">Rolls:</span> 1x Support Roll, 1x Steadfast Roll<br>
+                                            <span class="semibold">Cookies:</span> 3x Tech Cookie<br>
+                                            <span class="semibold">Sticks:</span> 2x Critical Stick, 1x Vin-Spi Stick<br>
+                                            <span class="semibold">Sandwiches:</span> 1x Body Sandwich<br>
+                                            <span class="semibold">Gummies:</span> 3x Stamina Gummy<br><br>
+                                        <p class="card-text">
+                                            
+
+                                    </div>
+
+                                <!-- Collumn 2, Supporting Image -->
+                                    <div class="col-lg-4 col-md-10 col-sm-10 col-10 my-auto center">
+                                        <img src="../images/pets/wanda_jinga/altbox.png" class="rounded my-2 w-100" alt="Alternate Candy Box"><br><br>
+                                    </div>
+
+                                </div>
+
+                                <!-- Row 2 (Upgraded Alternate Layout) -->
+                                    <div class="row">
+
+                                <!-- Collumn 1, Text -->
+                                    <div class="col-lg-6 mb-4 mx-auto my-auto">
+                                        <span class="card-title semibold text-slateish">Upgraded Alternate Layout</span><br>
+                                        Upgraded layout that cuts Critical Sticks, Support Roll, and Tech Cookies for stronger stuff. Needs 250 PP or more to cap out on crit.<br><br>
+                                        
+                                        <span class="semibold">Pancakes:</span> Two Layer Pancake, Three Layer Pancake<br>
+                                            <span class="semibold">Parfaits:</span> Super Vigilant Parfait, Exquisite Deadly Parfait<br>
+                                            <span class="semibold">Rolls:</span> Steadfast Roll, Fluffy Roll<br>
+                                            <span class="semibold">Cookies:</span> 3x Tech-Spi Cookie<br>
+                                            <span class="semibold">Sticks:</span> 1x Spirita Stick, 2x Vin-Spi Stick<br>
+                                            <span class="semibold">Gummies:</span> 5x Stamina Gummy<br><br>
+                                        <p class="card-text">
+
+                                    </div>
+
+                                <!-- Collumn 2, Supporting Image -->
+                            
+                                <div class="col-lg-4 col-md-10 col-sm-10 col-10 my-auto center">
+                                    <img src="../images/pets/wanda_jinga/altbox_upgraded.png" class="rounded my-2 w-100" alt="Upgraded Steady Parfait Candy Box"><br><br>
+                                </div>
+
+                                    </div>
+
+                       </div>
+
+                   </div>
+               </div>
+               
+           </div> <!-- close card -->
+       </div> <!-- close container -->
+
                 <!-- bg image // FIXED BACKGROUND IMAGE, hidden on xs and sm screens -->
                 <section id="fixedbgimg" class="my-5 border-top border-bottom border-dark 
                 d-none d-sm-block d-sm-none d-md-block">
@@ -364,84 +402,6 @@
                 
         <div   style="height: 4vh;"></div>
 
-        <!-- PAs -->
-        <div class="container mt-5">
-            <div class="card border-dark">
-                <p class="card-header text-light bg-blueish semibold">Photon Arts</p>
-                    <div class="card-body">
-                        <div class="row justify-content-center">
-
-                                <!-- Collumn 1, text -->
-                            <div class="col-lg-4 my-auto">
-                                <p>Wanda and Jinga have the same Photon Arts and Personalities, but differ otherwise.<br><br>
-                                    
-                                    As the evolved form of Wanda, Jinga is the preferred option because of its shorter revive time,
-                                    lower PA costs, and increased range.
-                                    <br><br>
-
-                            
-                            </div>
-
-                            <!-- Collumn 2, Table -->
-                            <div class="col">
-                                <div class="container table-responsive h-scroll-danger">
-                                    <table class="table text-center mt-3">
-                                        <thead>
-                                        <tr>
-                                            <th scope="col" class="table-orangeish border-0"></th>
-                                            <th scope="col" class="table-orangeish text-light border-0">Wanda</th>
-                                            <th scope="col" class="table-orangeish text-light border-0">Jinga</th>
-                                        </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td class="semibold" scope="row">Stats</td>
-                                                <td>Higher HP/DEX/DEF,<br> 30s Revive Time</td>
-                                                <td>Higher ATK,<br> 15s Revive Time</td>
-                                            </tr>
-                                        <tr>
-                                            <td class="semibold" scope="row">Slicer</td>
-                                            <td>10 PP</td>
-                                            <td>15 PP, Increased Range</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="semibold" scope="row">Break</td>
-                                            <td>15 PP</td>
-                                            <td class="text-orangeish semibold">10 PP, Increased Power</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="semibold" scope="row">Assault</td>
-                                            <td>10 PP</td>
-                                            <td class="text-orangeish  semibold">5 PP, Increased Range</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="semibold" scope="row">Shock</td> 
-                                            <td>20 PP</td>
-                                            <td class="text-orangeish  semibold">20 PP, Increased Range</td>
-                                        </tr>
-                                        <tr>
-                                            <td class="semibold" scope="row">Pulsar</td>
-                                            <td>30 PP</td>
-                                            <td class="text-orangeish  semibold">10 PP</td>
-                                        </tr>
-                                      
-                                        </tbody>
-                                    </table>
-                                </div>
-                                <p class="center text-orangeish pb-4">Table information sourced from 
-                                    <a class="text-dark" target="_blank" href="https://pso2.swiki.jp/index.php?ジンガ">https://pso2.swiki.jp/index.php?%ジンガ</a>
-                                </p>
-                                
-                                
-                                    
-                                
-                            </div>
-
-                        </div>
-                    </div>
-                
-            </div> <!-- close card -->
-        </div> <!-- close container -->
 
 		<div   style="height: 30vh;"></div>
     
