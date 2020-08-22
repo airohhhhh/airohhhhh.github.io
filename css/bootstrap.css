@@ -1783,6 +1783,12 @@ pre code {
   background-color: #4A49CE;
 }
 
+.table-shinyaeroish,
+.table-shinyaeroish > th,
+.table-shinyaeroish > td {
+  background-color: #B5580B;
+}
+
 .table-slateish,
 .table-slateish > th,
 .table-slateish> td {
@@ -8906,6 +8912,16 @@ a.text-orangeish:hover, a.orangeish:focus {
 a.text-aeroish:hover, a.aeroish:focus {
   color: #3232a3 !important;
 }
+
+.text-shinyaeroish {
+  color: #B5580B !important;
+}
+
+a.text-shinyaeroish:hover, a.shinyaeroish:focus {
+  color: #9c4b09 !important;
+}
+
+
 
 
 a.text-blueish:hover, a.blueish:focus {
