@@ -1777,6 +1777,12 @@ pre code {
   background-color: #E0675C;
 }
 
+.table-pinkish,
+.table-pinkish > th,
+.table-pinkish > td {
+  background-color: #D46791;
+}
+
 .table-aeroish,
 .table-aeroish > th,
 .table-aeroish > td {
@@ -8903,6 +8909,14 @@ a.text-success:hover, a.text-success:focus {
 
 a.text-orangeish:hover, a.orangeish:focus {
   color: #ca584e !important;
+}
+
+.text-pinkish {
+  color: #D46791 !important;
+}
+
+a.text-pinkish:hover, a.pinkish:focus {
+  color: #b15075 !important;
 }
 
 .text-aeroish {
