@@ -2,16 +2,16 @@
 
 
 #fixedbgimg {
-	background-image:url(../images/pets/maron_melon/maron_forest.jpg);
+	background-image:url(../images/equipment/takts/takt_is_bae.jpg);
 	background-size:cover;
 	background-attachment:fixed;
-	min-height: 600px;
+	min-height: 800px;
 	background-position: center;
 }
 
 #fixedbgimgmobile {
-	background-image:url(../images/pets/maron_melon/maron_forest.jpg);
+	background-image:url(../images/equipment/takts/takt_is_bae.jpg);
 	background-size:cover;
-	min-height: 250px;
+	min-height: 550px;
 	background-position: center;
 }
