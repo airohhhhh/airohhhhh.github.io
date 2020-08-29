@@ -107,7 +107,11 @@
 
                     All rings should be grinded to +20 unless stated otherwise.<br><br>
 
-				</div>
+                </div>
+                
+                <div class="col-md-5 col-lg-3 col-sm-6 col-7 my-auto">
+                    <img class="w-100 rounded" src="../images/equipment/rings/ring_blank.png" alt="Ring Equip UI">
+                </div>
 			</div>
         </div>
 
@@ -123,9 +127,14 @@
                </li>
 
                <li class="nav-item py-0 pr-0 pl-0">
-                   <a class="nav-link text-aeroish"  href="#right" role="tab" aria-controls="secondary" aria-selected="false">
+                   <a class="nav-link text-aeroish"  href="#right" role="tab" aria-controls="right" aria-selected="false">
                        R/ Rings</a>
                </li>
+
+               <li class="nav-item py-0 pr-0 pl-0">
+                <a class="nav-link text-dark"  href="#ringswitching" role="tab" aria-controls="ringswitching" aria-selected="false">
+                    Ring Switching</a>
+            </li>
            </ul>
 
            <div class="card cardbody">
@@ -165,7 +174,7 @@
                             <br><br><br>
 
                             <!-- L/ Mag Excite -->
-                            <img src="../images/equipment/rings/defensetech_ring.png" alt="Mag Excite" class="mb-2 mr-2">
+                            <img src="../images/equipment/rings/magexcite_ring.png" alt="Mag Excite" class="mb-2 mr-2">
                             <span class="font-weight-bold">L/Mag Excite</span><br>
 
                             <span class="text-slateish semibold">Increases the power of your mag's auto action and reduces its cooldown.
@@ -187,129 +196,90 @@
                             In bossing content however, this ring can be detrimental to you, as it can sometimes result in your
                             pet attacking the wrong part of the boss. For that reason, it can be useful to put this ring in your
                             character's left ring slot, and slot your other rings into your units, so you can unequip this ring at will.
-                            <span class="font-italic">This ring's effect doesn't improve with grind level.</span><br><br><br>
+                            <span class="font-italic">This ring's effect doesn't improve with grind level, but it's still worth ranking up for the free +20 T-ATK.</span><br><br><br>
                             
                         </div>
 
                            <!-- right -->
-                        <div class="tab-pane col-lg-7 mx-auto" id="right" height="100%" role="tabpanel" aria-labelledby="right-tab">
+                        <div class="tab-pane mx-auto col-11" id="right" height="100%" role="tabpanel" aria-labelledby="right-tab">
 
-                            <!-- Atra Takt -->
-                            <div class="row justify-content-center">
+                            <!-- R/C Strike Tech -->
+                            <img src="../images/equipment/rings/striketech_ring.png" alt="C Strike Tech" class="mb-2 mr-2">
+                            <span class="font-weight-bold">R/C Strike Tech</span><br>
 
-                                <!-- Collumn, Takt-->
-                                <div class="col-lg-2 col-md-2 col-5">
-                                    <img src="../images/equipment/takts/atra_takt.png" class="rounded my-2 w-100" alt="Atlas Tahat Ex"><br><br>
+                            <span class="text-aeroish  semibold">Provides +3% crit damage and +20% crit chance.
+                            </span> 
+                            The is the right ring you'll be using almost always. Crucial for hitting 100% critical hit rate on your pets.
+                            
+                            <small class="center semibold mt-2">Cannot be equipped while using Fighter subclass. Grab this as soon as you switch to Phantom sub.</small><br><br><br>
+
+                            <!-- R/PP Convert -->
+                            <img src="../images/equipment/rings/ppconv_ring.png" alt="PP Convert" class="mb-2 mr-2">
+                            <span class="font-weight-bold">R/PP Convert</span><br>
+
+                            <span class="text-aeroish semibold">Enables the Active Skill “PP Convert" to be used on your subpalette.
+                                For 20s, increase your natural PP regen from 5 PP/s to 7 PP/s and temporarily reduce your maximum HP by 30%.
+                            </span> 
+                            PP Convert offers you another way to recover PP when Lightstream Canxion's effect is on cooldown. Switch to this ring during
+                            downtime in combat, or if you find yourself low on PP! Remember to switch back to R/C Strike Tech afterwards.
+                            <br><br><br>
+
+                            <!-- R/Massive Hunter -->
+                            <img src="../images/equipment/rings/mh_ring.png" alt="Massive Hunter" class="mb-2 mr-2">
+                            <span class="font-weight-bold">R/Massive Hunter</span><br>
+
+                            <span class="text-aeroish  semibold">Allows you to equip "Massive Hunter" to your subpalette. For 25s, negate knockback
+                                and take 10% less damage.
+                            </span> 
+                            Similar in use to Zara Takt, but without requiring you to give up a Takt slot on your weapon palette. Swap to this if you find yourself
+                            fighting enemies that frequently knock you down while Alter Ego is on cooldown.
+                            <br><br><br>
+                            
+                        </div>
+
+                        <!-- ring switching -->
+                        <div class="tab-pane mx-auto col-11" id="ringswitching" height="100%" role="tabpanel" aria-labelledby="ringswitching-tab">
+
+                            In order to effectively make use of multiple right rings, 
+                            you’ll need to set up some simple shortcut words to do so. 
+                            You can access your shortcut words by hitting 
+                            <span class="highlight">Escape > System > Chat Settings.</span>
+
+                            <div class="row">
+                                <div class="mx-auto my-auto col-md-10 col-lg-8 col-sm-12 col-11">
+                                    <img src="../images/equipment/rings/ring_swaps.png" 
+                                    class="w-100 rounded my-3 d-none d-sm-block d-sm-none d-md-block" 
+                                    alt="Shortcut Words UI">
+
+                                    <img src="../images/equipment/rings/ring_swaps_xs.png" 
+                                    class="w-100 rounded my-3 d-block d-sm-none d-block d-sm-none" 
+                                    alt="Shortcut Words UI">
                                 </div>
-
-                                    <!-- Collumn, text -->
-                                <div class="col">
-
-                                    <span class="font-weight-bold"> Atlas Tahat Ex 15★</span>
-                                    <span class="text-slateish semibold">- Eternal War Scherzo -</span>
-                                    Increase your pet’s power by 6%. Your pet may survive one fatal blow with 1 HP. 
-                                    Restores pet HP at regular intervals afterwards.<br><br>
-
-                                </div>
-
                             </div>
 
-                                <small class="center semibold">Does not prevent a fatal blow on Maron or Melon Strike.</small>
-                                <small class="center highlight">Power can be increased to 8% via Luminmech Ether Fragments.</small>
-                                
-                                <div class="border-top border-dark my-3"></div>
-                                <div class="row justify-content-center">
+                            Next, navigate to 
+                            <span class="highlight">System > Options > Control Settings > Assign Keys (Keyboard)</span>
+                            , and finally to <span class="highlight">Shortcuts > Use Shortcut Words</span>,
+                            where you’ll be able to select from a few different 
+                            keybinds for utilizing shortcut words.<br><br>
 
-                                    <div class="col">
-                                    This isn't something you should include on your weapon palette all the time, 
-                                    but this can sometimes be useful for keeping your pet alive during a particularly dangerous fight.<br><br>
+                            Pick whichever option is most comfortable for you, as you'll be using these binds frequently in combat.
 
-                                    </div>
+                            <div class="row">
+                                <div class="mx-auto my-auto col-md-10 col-lg-8 col-sm-12 col-11">
+                                    <img src="../images/equipment/rings/shortcutwords_example.png" 
+                                    class="w-100 rounded my-3 d-none d-sm-block d-sm-none d-md-block" 
+                                    alt="Shortcut Words UI">
 
+                                    <img src="../images/equipment/rings/shortcutwords_example_xs.png" 
+                                    class="w-100 rounded my-3 d-block d-sm-none d-block d-sm-none" 
+                                    alt="Shortcut Words UI">
                                 </div>
-                            <!-- end Atra -->
-
-                            <div style="height: 8vh;"></div>
-
-                            <!-- Zara Takt -->
-                            <div class="row justify-content-center">
-
-                                <!-- Collumn, Takt-->
-                                <div class="col-lg-2 col-md-2 col-5">
-                                    <img src="../images/equipment/takts/zara_takt.png" class="rounded my-2 w-100" alt="Ceres Cicopus Zara"><br><br>
-                                </div>
-
-                                    <!-- Collumn, text -->
-                                <div class="col">
-
-                                    <span class="font-weight-bold"> Ceres Cicopus Zara 14★</span>
-                                    <span class="text-slateish semibold">- Immortal Moment -</span>
-                                        Gain a power bonus that increases every two hits (6% power at 10 hits). When power bonus is maxed, gain a barrier
-                                        that grants super armour and 10% damage reduction.<br><br>
-
-                                </div>
-
                             </div>
-                                
-                            <small class="center semibold">Barrier will fade if you don't land hits on enemies for 15s.</small>
-
-                                <div class="border-top border-dark my-3"></div>
-                                <div class="row justify-content-center">
-
-                                    <div class="col">
-
-                                        With its 6% power now outdone by multiple other weapons, Zara
-                                        remains useful only for the super armour it provides.<br><br>
-
-                                        The main use of Zara's super armour is to prevent you being staggered out of 
-                                        <span class="highlight">Melon Strike</span> outside of Alter Ego Harmony,
-                                        but this Takt can be useful in other situations as well.<br><br>
-
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            <!-- end Zara -->
-
-                            <div style="height: 8vh;"></div>
-
-                            <!-- Orb / Dusk -->
-                            <div class="row justify-content-center">
-
-                                <!-- Collumn, Takt-->
-                                <div class="col-lg-2 col-md-2 col-5">
-                                    <img src="../images/equipment/takts/orb_takt.png" class="rounded my-2 w-100" alt="Milliorazi Orb"><br><br>
-                                </div>
-
-                                    <!-- Collumn, text -->
-                                <div class="col">
-
-                                    <span class="font-weight-bold"> Milliorazi Orb/Dusk 15★</span>
-                                    <span class="text-slateish semibold">- Crimson Evening -</span>
-                                    Grants 6% power and automatically restores 2 PP every second.<br><br>
-
-                                </div>
-
-                            </div>
-                                
-                                <div class="border-top border-dark my-3"></div>
-                                <div class="row justify-content-center">
-
-                                    <div class="col">
-
-                                        Useful for its free PP recovery during downtime in combat, or as a means of improving your PP recovery while normal attacking.<br><br> 
-                                        
-                                        This isn't something to prioritize on your weapon palette, but if you're committing 
-                                        to running one pet with Steady Parfaits for a significant length of time, or you're running a quest with a lot of downtime,
-                                        this isn't a bad utility to have.<br><br>
-                                            
-                                        </ul>
-                                    </div>
-
-                                </div>
-                            <!-- end Liberate -->
-
-                           
+                            
+                            Rings that grant you access to an active subpalette skill, 
+                            such as PP Convert and Massive Hunter, 
+                            will also need to be equipped to your subpalette in order to be used.<br><br><br>
                             
                         </div>
 
