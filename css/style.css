@@ -42,7 +42,7 @@ html {
 /* pet images slider */
 
 .carousel-inner {
-	max-height: 30rem!important;
+	max-height: 40rem!important;
 }
 
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
