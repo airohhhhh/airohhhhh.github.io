@@ -1,0 +1,17 @@
+/* fixed img */
+
+
+#fixedbgimg {
+	background-image:url(../images/equipment/palette\ setup/room_crafting_bg.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	min-height: 800px;
+	background-position: center;
+}
+
+#fixedbgimgmobile {
+	background-image:url(../images/equipment/palette\ setup/room_crafting_bg.jpg);
+	background-size:cover;
+	min-height: 550px;
+	background-position: center;
+}
