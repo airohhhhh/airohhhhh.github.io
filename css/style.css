@@ -119,49 +119,7 @@ html {
 
 /* horizontal table scroll blueish */ 
 
-.h-scroll-blueish::-webkit-scrollbar-thumb {
-    background-color: #4ea4e2;
-    background-image: #4ea4e2;
-}
 
-.h-scroll-blueish::-webkit-scrollbar {
-    height: 6px;
-    
-}
-
-.h-scroll-blueish::-webkit-scrollbar-track {
-    background: #eee;
-}
-
-/* horizontal table scroll slateish */ 
-.h-scroll-slateish::-webkit-scrollbar-thumb {
-    background-color: #335699;
-    background-image: #335699;
-}
-
-.h-scroll-slateish::-webkit-scrollbar {
-    height: 6px;
-    
-}
-
-.h-scroll-slateish::-webkit-scrollbar-track {
-    background: #eee;
-}
-
-/* horizontal table scroll dark */ 
-.yeahdark::-webkit-scrollbar-thumb {
-    background-color: #343a40;
-    background-image: #343a40;
-}
-
-.yeahdark::-webkit-scrollbar {
-    height: 6px;
-    
-}
-
-.yeahdark::-webkit-scrollbar-track {
-    background: #eee;
-}
 
 /*vertical stock scroll  highlight */ 
 
@@ -170,19 +128,6 @@ html {
     overflow-y: scroll;
 }
 
-.yeah::-webkit-scrollbar-thumb {
-    background-color: #b04a7c;
-    background-image: #b04a7c;
-}
-
-.yeah::-webkit-scrollbar {
-    width: 6px;
-    
-}
-
-.yeah::-webkit-scrollbar-track {
-    background: #eee;
-}
 
 /* loading bar for introduction */
 
