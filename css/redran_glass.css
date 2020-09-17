@@ -1,0 +1,31 @@
+/* fixed img */
+
+#fixedbgimg {
+	background-image:url(../images/pets/redran_glass/redran_forest.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	min-height: 450px;
+	background-position: center;
+}
+
+#fixedbgimgmobile {
+	background-image:url(../images/pets/redran_glass/redran_forest.jpg);
+	background-size:cover;
+	min-height: 250px;
+	background-position: center;
+}
+
+#fixedbgimgtwo {
+	background-image:url(../images/pets/redran_glass/glass_forest.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	min-height: 450px;
+	background-position: center;
+}
+
+#fixedbgimgmobiletwo {
+	background-image:url(../images/pets/redran_glass/glass_forest.jpg);
+	background-size:cover;
+	min-height: 250px;
+	background-position: center;
+}
