@@ -6200,6 +6200,10 @@ button.bg-light:focus {
   background-color: #343a40 !important;
 }
 
+.bg-na {
+  background-color: #941df6!important;
+}
+
 a.bg-dark:hover, a.bg-dark:focus,
 button.bg-dark:hover,
 button.bg-dark:focus {
@@ -8956,6 +8960,15 @@ a.text-slateish:hover, a.blueish:focus {
 
 a.text-info:hover, a.text-info:focus {
   color: #613d97 !important;
+}
+
+
+.text-na {
+  color: #941df6 !important;
+}
+
+a.text-na:hover, a.text-na:focus {
+  color: #7f1bd1 !important;
 }
 
 .text-warning {
