@@ -4,14 +4,14 @@
 #fixedbgimg {
 	background-image:url(../images/equipment/takts/takt_is_bae.jpg);
 	background-size:cover;
-	background-attachment:fixed;
-	min-height: 800px;
+	background-attachment:fixed; 
+	min-height: 400px;
 	background-position: center;
 }
 
 #fixedbgimgmobile {
 	background-image:url(../images/equipment/takts/takt_is_bae.jpg);
 	background-size:cover;
-	min-height: 550px;
+	min-height: 240px;
 	background-position: center;
 }
