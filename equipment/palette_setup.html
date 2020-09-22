@@ -113,6 +113,7 @@
         <!-- sub palettes Container-->
         <div class="container mt-5"> <!-- close container -->
 
+
            <div class="card cardbody">
 
               
@@ -201,13 +202,28 @@
         <!-- weapon palettes Container-->
         <div class="container mt-5"> <!-- close container -->
 
+            
+            <!-- header -->
+            <ul class="nav nav-tabs card-header-tabs justify-content-center mb-1 mt-3" id="listjs" role="tablist">
+                <li class="nav-item py-0 pr-0">
+                    <a class="nav-link active text-dark" href="#palettesetup" role="tab" 
+                    aria-controls="palettesetup" aria-selected="true">Weapon Palette Setup</a>
+                </li>
+ 
+                <li class="nav-item py-0 pr-0 pl-0">
+                    <a class="nav-link text-shinyaeroish"  href="#questbasedweaponpalettes" role="questbasedweaponpalettes" aria-controls="sclass" aria-selected="false">
+                        Quest-Based Weapon Palettes</a>
+                </li>
+            </ul>
+
             <div class="card cardbody">
 
                 
                 <!-- body -->
                 <div class="card-body">
                     <div class="tab-content mt-3">
-                        <div class="tab-pane mx-auto col-12 col-lg-10 active" height="100%" role="tabpanel">
+
+                        <div class="tab-pane mx-auto col-11 active" id="palettesetup"  height="100%" role="tabpanel" aria-labelledby="units-tab">
 
                             <p class="card-title font-weight-bold">3 Button Mode</p>
 
@@ -239,7 +255,7 @@
                                     class="w-100 rounded my-3" alt="Synchro with Three Button Mode">
                                 </div>
 
-                                <div class="mx-auto my-auto col">
+                                <div class="mx-auto my-auto col-lg">
                                     <span class="semibold">3 Button Mode:</span>
 
                                     Your pet has access to all 5 PAs!
@@ -294,28 +310,46 @@
                             powerful it can be to have extra copies of pets - this is a big difference between average Summoners
                             and those who go the extra mile.<br><br><br><br>
 
-                            <p class="card-title font-weight-bold">Quest-Based Weapon Palettes</p>
-
-                            Summoner weapon palettes differ a <span class="font-italic">lot</span> depending on what quest you're doing - 
-                            and it's important to be able to select the right pets for the job.<br><br>
-
-                            The Emergency Quest <span class="highlight">Guides of Creation</span> is a standard bossing quest that Synchro does well against. It
-                            also includes a few attacks that build Maron really effectively. 
-                            With those two things in mind, (and some experience playing the quest), you can effectively build a weapon palette for the quest.<br><br>
-
                             
-                            <div class="col-md-7 col-lg-8 col-sm-8 col-12 my-auto mx-auto">
-                                <img class="w-100 rounded" src="../images/equipment/palette setup/goc.png" alt="Weapon Palette UI">
-                            </div><br>
+                        </div>
 
-                            Because Mother and Deus have phases that build Maron Strike quickly, we'll include two Marons - this also lets
-                            us throw an uncharged Maron at the start of the quest to get Synchro up and running.<br><br>
+                        <div class="tab-pane mx-auto col-11" id="questbasedweaponpalettes"  height="100%" role="tabpanel" aria-labelledby="questbasedweaponpalettes-tab">
 
-                            And from running the quest a few times as Summoner, you can know that Synchro is sometimes at risk of dying, so we'll include a second
-                            Synchro as a backup.<br><br>
+                            <div class="row">
+                                <div class="col-lg-6 my-auto">
+
+                                    <p class="card-title font-weight-bold">Building Weapon Palettes</p>
+
+                                    Summoner weapon palettes differ a <span class="font-italic">lot</span> depending on what quest you're doing - 
+                                    and it's important to be able to select the right pets for the job.<br><br>
+        
+                                    Take the Emergency Quest <span class="highlight">Incarnation of Knowledge (Luther)</span> as an example:<br><br>
+
+                                    Since it's an bossing quest that features some opportunities to build Maron Strike,
+                                    we'll include <span class="highlight">Synchro</span> (two of them, because Synchro is squishy) as our main DPS pet, 
+                                    with a <span class="highlight">Maron</span> to activate it's personality and take advantage 
+                                    of Maron Strike opportunities.<br><br>
+
+                                    And since Loser sometimes leaves the arena, we'll include <span class="highlight">Aero</span>
+                                    to pre-charge Spiral as Loser comes back into range.<br><br><br>
+
+                                    You can of course get away with a generic weapon palette 
+                                    that works kinda okay for everything, but you'll be much 
+                                    more effective as a Summoner if you start building weapon 
+                                    palettes on a quest by quest basis like this.<br><br>
+
+                                </div>
+
+                                <div class="col-lg-6 col-md-9 col-sm-10 mx-auto">
+                                    <div class="my-auto">
+                                        <img class="w-100 rounded" src="../images/equipment/palette setup/loser.png" alt="Weapon Palette UI">
+                                    </div><br>
+                                </div>
+                            </div>
+
+                           
                             
-                            You can of course get away with a generic weapon palette that works kinda okay for everything, but you'll be much
-                            more effective as a Summoner if you start building weapon palettes on a quest by quest basis like this.<br><br><br><br>
+                            
 
                             <p class="card-title font-weight-bold">Sets</p>
 
@@ -326,8 +360,8 @@
 
                             You can switch to your set at any time with the <span class="highlight">/ms</span> command - 
                             /ms1 for your first set, /ms2 for the next, etc.<br><br><br>
-                        </div>
 
+                        </div>
                     </div>
                 </div>
                 
