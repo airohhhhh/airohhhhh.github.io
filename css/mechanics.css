@@ -1,0 +1,20 @@
+/* fixed img */
+
+#fixedbgimg {
+	background-image:url(../images/skill\ tree/bg-fixed-gate-2.png);
+	background-size:cover;
+	background-attachment:fixed;
+	min-height: 400px; /* fix this back to 450 when the extra mechanics section goes live */
+	/* make picture pets/space_bg when it goes live too */
+	background-position: center;
+}
+
+#fixedbgimgmobile {
+	background-image:url(../images/skill\ tree/bg-fixed-gate-2.png);
+	background-size:cover;
+	min-height: 250px;
+	background-position: center;
+}
+
+
+
