@@ -10,7 +10,7 @@
 }
 
 #fixedbgimgmobile {
-	background-image:url(../images/skill\ tree/bg-fixed-gate-2.png);
+	background-image:url(../images/skill\ tree/bg-fixed-gate-2.png); /* make picture pets/space_bg when extra mechanices goes live  */
 	background-size:cover;
 	min-height: 250px;
 	background-position: center;
