@@ -15,6 +15,24 @@
 	background-position: center;
 }
 
+/* vulcan img */
+/* replace this synchro img with vulcan on vulcan release */
+
+#fixedbgimgtwo {
+	background-image:url(../images/pets/synchro/synchro_forest.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+	min-height: 450px;
+	background-position: center;
+}
+
+#fixedbgimgmobiletwo {
+	background-image:url(../images/pets/synchro/synchro_forest.jpg);
+	background-size:cover;
+	min-height: 250px;
+	background-position: center;
+}
+
 .blanktext {
 	color: #e0e0e0;
 }
