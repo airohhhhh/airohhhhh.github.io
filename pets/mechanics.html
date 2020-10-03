@@ -113,7 +113,7 @@
 			</div>
         </div>
 
-        <div style="height: 6vh;"></div>
+        <div style="height: 1vh;"></div>
 
         <!-- pet mechanicssssss Container-->
         <div class="container mt-5"> <!-- close container -->
@@ -302,17 +302,253 @@
         </div> <!-- close container -->
 
                 <!-- bg image // FIXED BACKGROUND IMAGE, hidden on xs and sm screens -->
-                <section id="fixedbgimg" class="mt-5 border-top border-dark 
-                d-none d-sm-block d-sm-none d-md-block"> <!-- do the same same as mobile screen -->
+                <section id="fixedbgimg" class="my-5 border-top border-dark 
+                d-none d-sm-block d-sm-none d-md-block border-bottom">
                         <!-- img defined in css -->
                 </section>
 
                 <!-- bg image // NON-FIXED BACKGROUND IMAGE, displays only on xs and sm screens-->
                 <!-- I should better name the ID for this but I won't -->
-                <section id="fixedbgimgmobile" class="mt-5 border-top border-dark 
-                d-block d-sm-none d-block d-sm-none"> <!-- replace mt-5 with my-5, and re-add border-bottom, when extra mechanics section goes live -->
+                <section id="fixedbgimgmobile" class="my-5 border-top border-dark 
+                d-block d-sm-none d-block d-sm-none border-bottom"> 
                         <!-- img defined in css -->
                 </section>
+
+        <div style="height: 6vh;"></div>
+
+            <!-- pet mechanics but dumber, intro Container-->
+		<div class="container mt-5">
+			<div class="row justify-content-center">
+				<div class="col-lg-5 my-auto">
+					<h3 class="boldtitlelarge">Advanced Pet Mechanics</h3>
+					<div class="my-3"></div>
+
+                    Additional information about how pets work and how they interact with stuff!<br><br>
+
+                    The information mentioned here isn't required to perform well, but can be implemented once you've got the basics down. <br><br>
+
+				</div>
+			</div>
+        </div>
+
+        <div style="height: 1vh;"></div>
+
+        <!-- pet mechanics but stupider Container-->
+        <div class="container mt-5"> <!-- close container -->
+
+            <!-- header -->
+            <ul class="nav nav-tabs card-header-tabs justify-content-center mb-1 mt-3" id="listjs" role="tablist">
+               <li class="nav-item py-0 pr-0">
+                   <a class="nav-link active text-danger" href="#buffs" role="tab" aria-controls="buffs" aria-selected="true">Buffs</a>
+               </li>
+
+               <li class="nav-item py-0 pr-0 pl-0">
+                   <a class="nav-link text-orangeish"  href="#TPS" role="tab" aria-controls="TPS" aria-selected="false">TPS</a>
+               </li>
+
+               <li class="nav-item py-0 pl-0">
+                    <a class="nav-link text-aeroish" href="#jumpcancels" role="tab" aria-controls="jumpcancels" aria-selected="false">Jump Cancels</a>
+               </li>
+
+               <li class="nav-item py-0 pl-0">
+                    <a class="nav-link text-dark" href="#damageresistance" role="tab" aria-controls="damageresistance" aria-selected="false">Damage Resistance</a>
+               </li>
+
+               <li class="nav-item py-0 pl-0">
+                <a class="nav-link text-info" href="#rykrosJA" role="tab" aria-controls="rykrosJA" aria-selected="false">Rykros JA</a>
+            </li>
+           </ul>
+
+           <div class="card cardbody">
+
+              
+                <!-- body -->
+                <div class="card-body">
+                   <div class="tab-content mt-3">
+
+                            <!-- buffs  -->
+                        <div class="tab-pane active" id="buffs" height="100%" role="tabpanel" aria-labelledby="buffs-tab">
+
+                            <div class="row justify-content-center mt-5 mb-4">
+                                    <!-- Collumn 1, text -->
+                                <div class="col-lg-6 my-auto mx-auto">
+
+                                    You and your pet have <span class="highlight">entirely separate buff bars</span> - 
+                                    in order for Shifta and Deband to benefit your pet, it must be casted on your Pet.
+
+                                    The only time it's relevant for your character to have Shifta is when using Rykros, since
+                                    Rykros Staff's projectiles <span class="highlight">originate from your character.</span><br><br>
+                                    
+
+                                    Similarly, for Zanverse to work with pets, 
+                                    <span class="highlight">your pet must be in the Zanverse field </span>
+                                    rather than your character.
+
+                                    Zanverse checks whether your pet was in-range at the beginning of the PA - so for PAs such as Maron
+                                    Strike, you'll need to cast Zanverse on yourself.<br><br>
+
+                                    Also, positionals such as Fighter’s Stances 
+                                    and “kill from the front/back” stage orders in Extreme Quests and Endless Quests 
+                                    are based on <span class="highlight">your pet's position</span>, not your character's.<br><br>
+
+                                
+                                </div>
+                            </div>
+
+                        </div>
+
+                            <!-- TPS -->
+                        <div class="tab-pane" id="TPS" height="100%" role="tabpanel" aria-labelledby="TPS-tab">
+
+                            <div class="row justify-content-center mt-5 mb-4">
+                                <div class="col-lg-7 my-auto mx-auto">
+
+                                    Normally, pets may only be moved directly to an enemy, or back to your character.
+                                    Using the game's <span class="highlight">third person aim mode</span> (bound to Z by default), you can manually
+                                    command some pets (Jinga, Viola) to normal attack where you wish.<br><br>
+
+                                    This can be used to great effect on Jinga to position it exactly where you want for precise Jinga Shocks.<br><br>
+
+                                    You can also do this with Aero. Kind of. Normal attacks <span class="highlight">won't make Aero move in TPS mode,</span>
+                                    but you can move it using Aero Stab, to quickly and accurately set up Aero Spirals.<br><br>
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                            <!-- jump cancels  -->
+                        <div class="tab-pane" id="jumpcancels" height="100%" role="tabpanel" aria-labelledby="jumpcancels-tab">
+
+                            <small class="semibold center">Jump cancels will prevent S7: Glowing Grace ticks!<br> If you're using this SSA,
+                                you should only do Jump Cancels if you're fine with burning some PP to do so.
+                            </small><br>
+
+                            <!-- PAs -->
+                            <div class="row justify-content-center mt-4 mb-4">
+
+                                    <!-- Collumn 1, text -->
+                                <div class="col-lg-5 my-auto mx-auto">
+                                    
+                                    Pet PAs can be divided into two halves: your
+                                    character swinging their takt, and your pet actually 
+                                    executing the action. The <span class="highlight">player half</span>
+                                    of this can be canceled by jumping. 
+                                    This has a few niche uses:<br><br>
+
+                                    First of all, jumping <span class="highlight">allows PP regeneration to start early.</span>
+                                    This is notable on long PAs such as Jinga Slicer, 
+                                    allowing you to get a few ticks of PP 
+                                    back during the animation. This recovers roughly 
+                                    3 PP per Slicer (including increased PP regen of 
+                                    Phantom sub).
+                                    You can also <span class="highlight">capitalize on this PP recovery window using Ketos Proi.</span><br><br>
+
+                                    Secondly, <span class="highlight">jump canceling a PA allows you to followup 
+                                    slightly faster than normal </span>- most pet PAs are 44-45F 
+                                    long; jump canceling cuts that down to 39f 
+                                    (when executed perfectly). This can allow you to, 
+                                    for example, <span class="highlight">use Shifta after a Synchro Geki</span>
+                                    without dropping your combo, or <span class="highlight font-italic">break</span> out of Jinga Break's animation quicker.
+                                    <br><br>
+                                </div>
+
+                                <!-- Collumn 2, Gif -->
+                                <div class="col-lg-4 col-md-8 col-sm-10 col-10 my-auto mx-auto">
+                                    <img src="../images/pets/geki_jumpcancel_tech.gif" class="rounded my-2 w-100" alt="PA Jump Cancel Example"><br><br>
+                                </div>
+
+                            </div>
+
+                                <!-- normals -->
+                            <div class="row justify-content-center mt-5 mb-4">
+
+                                    <!-- Collumn 1, text -->
+                                <div class="col-lg-5 my-auto mx-auto">
+                                    
+                                    Thirdly, you can jump cancel normal attacks.
+                                    Doing this allows you <span class="highlight">to quickly active
+                                    the potential of Lightweaver Cras 
+                                    Reed</span>, or recover PP in a pinch.<br><br>
+
+                                    <span class="highlight">If you're using Glowing Grace, </span>you're better 
+                                    off spamming grounded normals for PP.<br><br>
+                                
+                                </div>
+
+                                <!-- Collumn 2, Gif -->
+                                <div class="col-lg-4 col-md-8 col-sm-10 col-10 my-auto mx-auto">
+                                    <img src="../images/pets/n_jump_n_jump_n.gif" class="rounded my-2 w-100" alt="Canceling Normals with Jumps"><br><br>
+                                </div>
+
+                            </div>
+
+                        </div>
+
+                            <!-- Damage res -->
+                        <div class="tab-pane" id="damageresistance" height="100%" role="tabpanel" aria-labelledby="damageresistance-tab">
+
+                            <div class="row justify-content-center mt-5 mb-4">
+                                <div class="col-lg-8 my-auto mx-auto">
+
+                                    Anga and Phaleg have a unique mechanic that makes them resist 
+                                    <span class="highlight">weapon types or tech elements</span>
+                                    that deal the most damage to them in combat.
+                                    Since Summoner only has one real weapon type, and won’t do much damage 
+                                    with Techniques or Gunslashes, Takt resist 
+                                    can be a real problem.<br><br>
+
+                                    Any <span class="highlight">non-technique action from your Mag</span> can cause Takt Resist.
+                                    This includes your Mag's Photon Blast, Auto Action, and SP Action.<br><br>
+                                    
+                                    The other way you can proc Takt resist is through normal attacks.
+                                    Using a pet's normal attack <span class="highlight">will 
+                                    create a small hitbox infront of your Takt</span> 
+                                    that deals negligible damage, but still causes Takt resist. 
+                                    Avoid manually normal attacking Anga or Phaleg if you're running solo.<br><br>
+
+                                    On the topic of damage resistance, 
+                                    <span class="highlight">Rykros Staff's Megid Projectiles</span>
+                                    cause Dark resist rather than Takt resist
+                                    (though their damage is still reduced <span class="font-italic">by</span> Takt resist). 
+                                    Consider removing Megid from your Mag if you're planning to fight Anga solo.<br><br> 
+                                    
+                                    Similarly, Light resist will cause a roughly 20% damage
+                                    loss assuming you have Light Pets,
+                                    so Grants is not recommended either. Use Foie if possible.<br><br>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+
+                            <!-- Rykros JA -->
+                        <div class="tab-pane" id="rykrosJA" height="100%" role="tabpanel" aria-labelledby="rykrosJA-tab">
+
+                            <div class="row justify-content-center mt-5 mb-4">
+                                <div class="col-lg-7 my-auto mx-auto">
+
+                                    While pets can't JA, this doesn't apply to the Megid projectiles fired by Rykros Staff.<br><br>
+
+                                    If you equip Rykros and use a pet PA during a JA window, that 
+                                    <span class="highlight">Rykros projectile will Just Attack</span>
+                                    and recieve bonus damage for doing so.<br><br>
+
+                                    In practice, this is rarely going to be relevant, but if you find yourself using Zanverse or buffing your pets
+                                    while using Rykros it can be a fun trick.<br><br>
+                                    
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+               
+           </div> <!-- close card -->
+        </div> <!-- close container -->
+
+        <div style="height: 30vh;"></div>
     
 		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
