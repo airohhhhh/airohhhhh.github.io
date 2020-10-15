@@ -19,7 +19,7 @@
 /* replace this synchro img with vulcan on vulcan release */
 
 #fixedbgimgtwo {
-	background-image:url(../images/pets/synchro/synchro_forest.jpg);
+	background-image:url(../images/pets/synchro/vulcan_forest.jpg);
 	background-size:cover;
 	background-attachment:fixed;
 	min-height: 450px;
@@ -27,7 +27,7 @@
 }
 
 #fixedbgimgmobiletwo {
-	background-image:url(../images/pets/synchro/synchro_forest.jpg);
+	background-image:url(../images/pets/synchro/vulcan_forest.jpg);
 	background-size:cover;
 	min-height: 250px;
 	background-position: center;
