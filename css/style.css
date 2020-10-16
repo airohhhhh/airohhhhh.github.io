@@ -9,6 +9,15 @@ body {
 	background-color: #F0EEEE;
 }
 
+img {
+	pointer-events: none;
+}
+
+img::selection, a::selection {
+	color: none;
+	background: none;
+}
+
 .cardbody {
 	background-color: #e0e0e0;
 }
@@ -19,11 +28,7 @@ body {
 		box-shadow: none !important;
 }
 
-.bgheader {
-	background-color: #f0c9e8;
-	color: black;
-	padding: 0px;
-}
+
 html {
 	scroll-behavior: smooth;
 }
