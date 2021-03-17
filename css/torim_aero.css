@@ -1,6 +1,6 @@
 /* fixed img */
 
-#fixedbgimg {
+#bgimgdesktop-fixed {
 	background-image:url(../images/pets/torim_aero/torim_forest.jpg);
 	background-size:cover;
 	background-attachment:fixed;
@@ -8,7 +8,7 @@
 	background-position: center;
 }
 
-#fixedbgimgmobile {
+#bgimgmobile-nonfixed {
 	background-image:url(../images/pets/torim_aero/torim_forest.jpg);
 	background-size:cover;
 	min-height: 250px;

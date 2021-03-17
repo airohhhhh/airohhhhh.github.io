@@ -1,6 +1,6 @@
 /* fixed img */
 
-#fixedbgimg {
+#bgimgdesktop-fixed {
 	background-image:url(../images/pets/maron_melon/maron_forest.jpg);
 	background-size:cover;
 	background-attachment:fixed;
@@ -8,14 +8,14 @@
 	background-position: center;
 }
 
-#fixedbgimgmobile {
+#bgimgmobile-nonfixed {
 	background-image:url(../images/pets/maron_melon/maron_forest.jpg);
 	background-size:cover;
 	min-height: 250px;
 	background-position: center;
 }
 
-#fixedbgimgtwo {
+#bgimgdesktop-fixedtwo {
 	background-image:url(../images/pets/maron_melon/melon_forest.jpg);
 	background-size:cover;
 	background-attachment:fixed;
@@ -23,7 +23,7 @@
 	background-position: center;
 }
 
-#fixedbgimgmobiletwo {
+#bgimgmobile-nonfixedtwo {
 	background-image:url(../images/pets/maron_melon/melon_forest.jpg);
 	background-size:cover;
 	min-height: 250px;
