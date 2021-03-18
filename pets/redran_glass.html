@@ -470,11 +470,11 @@
 
             <!-- header -->
             <ul class="nav nav-tabs card-header-tabs justify-content-center mb-1 mt-3" id="listjs" role="tablist">
-               <li class="nav-item py-0 pr-0">
+                <li class="nav-item py-0 pr-0">
                    <a class="nav-link active text-success" href="#photonarts" role="tab" aria-controls="photonarts" aria-selected="true">Photon Arts</a>
-               </li>
+                </li>
 
-               <li class="nav-item py-0 pr-0 pl-0">
+                <li class="nav-item py-0 pr-0 pl-0">
                     <a class="nav-link text-dark"  href="#redrannumbers" role="tab" aria-controls="redrannumbers" aria-selected="false">Redran Numbers</a>
                 </li>
            </ul>
@@ -871,6 +871,10 @@
                    aria-controls="glassphotonarts" aria-selected="true">Photon Arts</a>
                </li>
 
+                <li class="nav-item py-0 pr-0 pl-0">
+                    <a class="nav-link text-orangeish"  href="#glassnumbers" role="tab" aria-controls="glassnumbers" aria-selected="false">Glass Numbers</a>
+                </li>
+
                <li class="nav-item py-0 pr-0 pl-0">
                    <a class="nav-link text-dark"  href="#candyboxglass" role="tab" aria-controls="candyboxglass" aria-selected="false">JP Candy Box</a>
                </li>
@@ -986,7 +990,9 @@
                                         by Glass Laser, Burst, or Gravity. Creates a sphere that 
                                         deals damage over time for a few seconds. </span><br><br>
 
-                                        Costs double what Redran Mine does, but deals slightly higher damage.<br><br>
+                                        Costs double what Redran Mine does, but deals slightly higher damage. Also note that
+                                        the projectile for Glass Mine moves a lot quicker than Redran Mine - this reduces
+                                        the number of situations in which you can Laser->Mine.<br><br>
                             </div>
 
                             <!-- Collumn 2, Gif -->
@@ -1048,6 +1054,90 @@
 
                         <div style="height: 3vh;"></div>
                             
+                        </div>
+
+                        <!-- Numbers -->
+                        <div class="tab-pane col-11 mx-auto" id="glassnumbers" role="tabpanel" aria-labelledby="glassnumbers-tab">
+
+                            <!-- row one, power/frames/dps/dpp -->
+                        <div class="row justify-content-center">
+
+                            <!-- Collumn 2, Table -->
+                            <div class="col">
+                                <div class="container table-responsive h-scroll-danger">
+                                    <table class="table text-center mt-3">
+                                        <thead>
+                                            <tr>
+                                                <th scope="col" class="table-orangeish border-0"></th>
+                                                <th scope="col" class="table-orangeish  text-light border-0">Frames</th>
+                                                <th scope="col" class="table-orangeish  text-light border-0">Power</th>
+                                                <th scope="col" class="table-orangeish  text-light border-0">DPS</th>
+                                                <th scope="col" class="table-orangeish  text-light border-0">Notes</th>
+                                                <th scope="col" class="table-orangeish  text-light border-0">DPP*</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <!-- laser -->
+                                            <tr>
+                                                <td class="semibold align-middle" scope="row">Laser</td>
+                                                <td class="align-middle">63F <span class="text-orangeish semibold">1 Lock</span><br>
+                                                                        65F <span class="text-orangeish semibold">2 Locks</span><br>
+                                                                        67F <span class="text-orangeish semibold">3 Locks</span><br>
+                                                                        69F <span class="text-orangeish semibold">4 Locks</span>
+                                                </td>
+                                                <td class="align-middle"><br><br><br>3100</td>
+                                                <td class="align-middle"><br>1431<br><br>2696</td>
+                                                <td class="align-middle"></td>
+                                                <td class="align-middle"><br><br><br>155</td>
+                                            </tr>
+
+                                            <!-- slash -->
+                                            <tr>
+                                                <td class="semibold align-middle" scope="row">Slash</td>
+                                                <td class="align-middle">44F</td>
+                                                <td class="align-middle">1212</td>
+                                                <td class="align-middle">1653</td>
+                                                <td class="align-middle"></td>
+                                                <td class="align-middle">151.5</td>
+                                            </tr>
+
+                                            <!-- burst -->
+                                            <tr>
+                                                <td class="semibold align-middle" scope="row">Burst</td>
+                                                <td class="align-middle">102F <span class="text-orangeish semibold">Full Charge</span><br>
+                                                                        52F <span class="text-orangeish semibold">Glass Firing Burst</span><br>
+                                                                        44F <span class="text-orangeish semibold">Delay between Bursts</span><br>
+                                                <td class="align-middle">4600<br><br></td>
+                                                <td class="align-middle">2706<br><br></td>
+                                                <td class="align-middle">DPS doesn't account for Burst delay<br><br><br><br></td>
+                                                <td class="align-middle">131.4<br><br></td>
+                                            </tr>
+
+                                            <!-- mine -->
+                                            <tr>
+                                                <td class="semibold align-middle" scope="row">Mine</td>
+                                                <td class="align-middle">44F</td>
+                                                <td class="align-middle">2110</td>
+                                                <td class="align-middle">2877</td>
+                                                <td class="align-middle"></td>
+                                                <td class="align-middle">105.5</td>
+                                            </tr>
+                                    
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <p class="center text-orangeish pb-4">Information referenced from
+                                    <a class="text-dark" target="_blank" href="https://pso2.swiki.jp/index.php?グラス">https://pso2.swiki.jp/index.php?%グラス</a>
+                                        <small class="text-orangeish center semibold">* DPP = Damage per PP spent</small>
+                                </p>
+                                
+                                
+                                    
+                                
+                            </div>
+
+                        </div>
+
                         </div>
 
                            <!-- Candy Box -->
