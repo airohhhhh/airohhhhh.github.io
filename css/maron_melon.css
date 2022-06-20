@@ -1,7 +1,7 @@
 /* fixed img */
 
 #bgimgdesktop-fixed {
-	background-image:url(../images/pets/maron_melon/maron_forest.jpg);
+	background-image:url(../pso2-su-guide/images/pets/maron_melon/maron_forest.jpg);
 	background-size:cover;
 	background-attachment:fixed;
 	min-height: 450px;
@@ -9,14 +9,14 @@
 }
 
 #bgimgmobile-nonfixed {
-	background-image:url(../images/pets/maron_melon/maron_forest.jpg);
+	background-image:url(../pso2-su-guide/images/pets/maron_melon/maron_forest.jpg);
 	background-size:cover;
 	min-height: 250px;
 	background-position: center;
 }
 
 #bgimgdesktop-fixedtwo {
-	background-image:url(../images/pets/maron_melon/melon_forest.jpg);
+	background-image:url(../pso2-su-guide/images/pets/maron_melon/melon_forest.jpg);
 	background-size:cover;
 	background-attachment:fixed;
 	min-height: 450px;
@@ -24,7 +24,7 @@
 }
 
 #bgimgmobile-nonfixedtwo {
-	background-image:url(../images/pets/maron_melon/melon_forest.jpg);
+	background-image:url(../pso2-su-guide/images/pets/maron_melon/melon_forest.jpg);
 	background-size:cover;
 	min-height: 250px;
 	background-position: center;
