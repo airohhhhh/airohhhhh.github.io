@@ -1,7 +1,7 @@
 /* fixed img */
 
 #bgimgdesktop-fixed {
-	background-image:url(../pso2-su-guide/images/skill\ tree/bg-fixed-gate-1.png);
+	background-image:url(../summoner-guide/images/skill\ tree/bg-fixed-gate-1.png);
 	background-size:cover;
 	background-attachment:fixed;
 	min-height: 600px;
@@ -9,14 +9,14 @@
 }
 
 #bgimgmobile-nonfixed {
-	background-image:url(../pso2-su-guide/images/skill\ tree/bg-fixed-gate-1.png);
+	background-image:url(../summoner-guide/images/skill\ tree/bg-fixed-gate-1.png);
 	background-size:cover;
 	min-height: 350px;
 	background-position: center;
 }
 
 #bgimgdesktop-fixedtwo {
-	background-image:url(../pso2-su-guide/images/skill\ tree/bg-fixed-gate-2.png);
+	background-image:url(../summoner-guide/images/skill\ tree/bg-fixed-gate-2.png);
 	background-size:cover;
 	background-attachment:fixed;
 	min-height: 600px;
@@ -24,7 +24,7 @@
 }
 
 #bgimgmobile-nonfixedtwo{
-	background-image:url(../pso2-su-guide/images/skill\ tree/bg-fixed-gate-2.png);
+	background-image:url(../summoner-guide/images/skill\ tree/bg-fixed-gate-2.png);
 	background-size:cover;
 	min-height: 350px;
 	background-position: center;
