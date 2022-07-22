@@ -1,8 +1,5 @@
 RewriteEngine on
 
-RewriteCond %{REQUEST_URI} /waker-guide [NC]
-RewriteRule ^(.*)$ https://airohhhhh.github.io/waker-guide/home.html [P,L]
-
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [NC,L]
