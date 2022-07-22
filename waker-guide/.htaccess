@@ -1,0 +1,8 @@
+#RewriteEngine on
+#RewriteCond %{REQUEST_FILENAME} !-d
+#RewriteCond %{REQUEST_FILENAME}\.html -f
+#RewriteRule ^(.*)$ $1.html [NC,L]
+
+RewriteEngine On
+Redirect 302 /waker-guide/ https://airohhhhh.github.io/waker-guide/home.html
+RewriteRule ^/waker-guide/ https://airohhhhh.github.io/waker-guide/home.html
