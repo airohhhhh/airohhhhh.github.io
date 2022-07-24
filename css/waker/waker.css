@@ -35,7 +35,7 @@ html {
 /* nav bar */
 
 .navbar {
-	box-shadow: 0 .26rem .26rem rgba(0, 0, 0, .2);
+	box-shadow: 0 .26rem .26rem rgba(0, 0, 0, 0.2);
 }
 
 .nav-item {
@@ -144,7 +144,16 @@ html {
 }
 
 a:link { text-decoration: none; }
-a:hover { text-decoration: underline; }
+a {
+	color: #dc3545;
+}
+.textlink:hover {
+	 text-decoration: underline;
+ }
+
+a:hover {
+	color: #b32a38;
+}
 .accordion-button:not(.collapsed) {
 	color: white;
 	background:#dc3545;
@@ -153,6 +162,7 @@ a:hover { text-decoration: underline; }
 .accordion-button:not(.collapsed)::after {
 	filter: brightness(0%);
 }
+
 
 
 
