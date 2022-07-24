@@ -1,12 +1,13 @@
 
 /* general stuff */
 
+
 body, p{
 	font-family: 'Open Sans', sans-serif;
 }
 
 body {
-	background-color: #F0EEEE;
+	background-color: #FFFFFF;
 }
 
 img {
@@ -18,9 +19,6 @@ img::selection, a::selection {
 	background: none;
 }
 
-.cardbody {
-	background-color: #e0e0e0;
-}
 
 
 .navbar-toggler:active, .navbar-toggler:focus {
@@ -37,7 +35,7 @@ html {
 /* nav bar */
 
 .navbar {
-	box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .2);
+	box-shadow: 0 .26rem .26rem rgba(0, 0, 0, .2);
 }
 
 .nav-item {
@@ -75,6 +73,13 @@ html {
 	color: #741b47;
 	font-weight: 600;
 }
+
+.highlightgray {
+	color: rgba(87, 87, 87, 0.8);
+	font-weight: 600;
+}
+
+
 
 .highlightintro {
 	color: #335699;
@@ -134,10 +139,21 @@ html {
     backdrop-filter: blur(8px);
     }
 
-.absolutedeeznuts {
-		position: absolute;
-	}
-
-.airohpfp {
-    background-image:url(../../summoner-guide/images/15Star.png);
+.doesthiswork {
+	background-color:rgba(0, 0, 0, 0.37);
 }
+
+a:link { text-decoration: none; }
+a:hover { text-decoration: underline; }
+.accordion-button:not(.collapsed) {
+	color: white;
+	background:#dc3545;
+}
+
+.accordion-button:not(.collapsed)::after {
+	filter: brightness(0%);
+}
+
+
+
+
