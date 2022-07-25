@@ -156,11 +156,12 @@ a:hover {
 }
 .accordion-button:not(.collapsed) {
 	color: white;
-	background:#dc3545;
+	background:#dc3b359a;
 }
 
 .accordion-button:not(.collapsed)::after {
 	filter: brightness(0%);
+	color: white;
 }
 
 
